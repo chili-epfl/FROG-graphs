@@ -19,7 +19,7 @@
         "guidelines": "Ce Quizz est anonyme, pas noté et ne compte donc en aucun cas pour la note à l'examen final. Une seule réponse est correcte par question. Si vous ne connaissez pas la réponse, répondez NA.",
         "questions": [
           {
-            "question": "Question 1 - Laquelle de ces expressions est juste?",
+            "question": "Laquelle de ces expressions est juste?",
             "answers": [
               "Une probabilité est un nombre qui prend ses valeurs entre $-1$ et $1$.",
               "Une probabilité est un nombre qui prend ses valeurs dans $]0; 1[$.",
@@ -29,7 +29,7 @@
             ]
           },
           {
-            "question": "Question 2 - On sait que la probabilité d'avoir un accident lors d'un trajet sur la route reliant Lausanne à Vevey est égale à 0.01%. On sait également que, sur ce trajet, la probabilité d'avoir un accident est deux fois plus élevée lorsque qu'il pleut que lorsqu'il ne pleut pas. On sait enfin qu'il pleut 20% du temps sur ce tronçon routier. Quelle est la probabilité d'avoir un accident lorsqu'il pleut sur la route reliant Lausanne à Vevey?",
+            "question": "On sait que la probabilité d'avoir un accident lors d'un trajet sur la route reliant Lausanne à Vevey est égale à 0.01%. On sait également que, sur ce trajet, la probabilité d'avoir un accident est deux fois plus élevée lorsque qu'il pleut que lorsqu'il ne pleut pas. On sait enfin qu'il pleut 20% du temps sur ce tronçon routier. Quelle est la probabilité d'avoir un accident lorsqu'il pleut sur la route reliant Lausanne à Vevey?",
             "answers": [
               "$0.02 \\%$",
               "$0.01\\bar{6} \\%$",
@@ -39,11 +39,11 @@
             ]
           },
           {
-            "question": "Question 3 - Un cadenas à numéros possède trois roues; chacune porte les numéros 0 à 9. Combien de \"nombres\" secrets y a-t-il?",
+            "question": "Un cadenas à numéros possède trois roues; chacune porte les numéros 0 à 9. Combien de possibilités de \"nombre\" secrets y a-t-il?",
             "answers": ["$120$", "$729$", "$720$", "$1000$", "NA"]
           },
           {
-            "question": "Question 4 - Laquelle des fonctions suivantes est-elle une densité de probabilité?",
+            "question": "Laquelle des fonctions suivantes est-elle une densité de probabilité?",
             "answers": [
               "$f_X(x) = x$ si $x \\in \\{-0.5, 1.5\\}$, $0$ sinon.",
               "$f_X(x) = 2x$ si $x \\in \\{0, 1\\}$, $0$ sinon.",
@@ -53,7 +53,7 @@
             ]
           },
           {
-            "question": "Question 5 - Soit $X$ une variable aléatoire suivant une loi Normale de moyenne $\\mu \\gt 0$ et de variance $\\sigma^2 \\gt 1$. On note $\\Phi$ la fonction de répartition de la loi Normale centrée réduite (loi normale standard). Laquelle des affirmations suivantes est-elle correcte?",
+            "question": "Soit $X$ une variable aléatoire suivant une loi Normale de moyenne $\\mu \\gt 0$ et de variance $\\sigma^2 \\gt 1$. On note $\\Phi$ la fonction de répartition de la loi Normale centrée réduite (loi normale standard). Laquelle des affirmations suivantes est-elle correcte?",
             "answers": [
               "$P(X - \\mu \\gt x) = 1 - \\Phi((x - \\mu) / \\sigma)$",
               "$P(X + \\mu \\gt x) = 1 - \\Phi((x + \\mu) / \\sigma)$",
