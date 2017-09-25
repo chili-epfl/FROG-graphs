@@ -1,0 +1,85 @@
+{
+  "graph": {
+    "_id": "cj7z8qcj700003k6q55gk3g6j",
+    "name": "STREAMING_EXAMPLE",
+    "createdAt": "2017-09-24T21:12:56.564Z",
+    "duration": 120,
+    "broken": false
+  },
+  "activities": [
+    {
+      "_id": "cj80o96ou00003k6qp7r3rg5f",
+      "title": "Uploader",
+      "startTime": 6,
+      "length": 5,
+      "plane": 2,
+      "activityType": "ac-imgView",
+      "data": {"canUpload": true, "images": []},
+      "groupingKey": "group",
+      "streamTarget": "cj80o9cs300013k6qqltq13li"
+    },
+    {
+      "_id": "cj80o9cs300013k6qqltq13li",
+      "title": "Classifier",
+      "startTime": 6,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-imgClass",
+      "data": {
+        "title": "Classify images",
+        "images": [],
+        "categories": ["box", "round", "hello", "goodbye"]
+      }
+    }
+  ],
+  "operators": [
+    {
+      "_id": "cj80oac9z00023k6qlsivbk4z",
+      "time": 1.5638297872340425,
+      "y": 191,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": false,
+        "rules": [
+          {
+            "includeexclude": "include",
+            "activity": "cj80o9cs300013k6qqltq13li",
+            "individuals": "kshitij"
+          },
+          {
+            "activity": "cj80o96ou00003k6qp7r3rg5f",
+            "includeexclude": "exclude",
+            "individuals": "kshitij"
+          }
+        ],
+        "includeexclude": "include"
+      }
+    },
+    {
+      "_id": "cj80obd6900063k6q4sbnvddv",
+      "time": 1.372340425531915,
+      "y": 277,
+      "type": "social",
+      "operatorType": "op-create-groups",
+      "data": {"groupsize": 3}
+    }
+  ],
+  "connections": [
+    {
+      "_id": "cj80oagid00043k6qxotkebtg",
+      "source": {"type": "operator", "id": "cj80oac9z00023k6qlsivbk4z"},
+      "target": {"type": "activity", "id": "cj80o9cs300013k6qqltq13li"}
+    },
+    {
+      "_id": "cj80oanja00053k6q8kwgwcrd",
+      "source": {"type": "operator", "id": "cj80oac9z00023k6qlsivbk4z"},
+      "target": {"type": "activity", "id": "cj80o96ou00003k6qp7r3rg5f"}
+    },
+    {
+      "_id": "cj80obe9400073k6q9m6evcgd",
+      "source": {"type": "operator", "id": "cj80obd6900063k6q4sbnvddv"},
+      "target": {"type": "activity", "id": "cj80o96ou00003k6qp7r3rg5f"}
+    }
+  ]
+}
