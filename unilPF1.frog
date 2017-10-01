@@ -1,82 +1,151 @@
 {
   "graph": {
-    "_id": "cj88gpq1100003k6t2dixw8b2",
+    "_id": "cj88nu4pg0001326vp1vnzdab",
     "name": "unilPF1",
-    "createdAt": "2017-10-01T08:06:19.910Z",
+    "createdAt": "2017-10-01T11:25:42.868Z",
     "duration": 120,
     "broken": false
   },
   "activities": [
     {
-      "_id": "cj88gps4700013k6trbxa0jkc",
+      "_id": "cj88nu4ph0002326vc29bu4gm",
       "title": "A3",
-      "startTime": 9,
-      "length": 5,
+      "startTime": 3,
+      "length": 8,
       "plane": 1,
       "activityType": "ac-imgView",
-      "data": {"canUpload": true, "images": []}
+      "data": {"canUpload": true, "images": []},
+      "streamTarget": "cj88nudnj000c326vt9dhjar6"
     },
     {
-      "_id": "cj88gwerm00043k6t1u6bqk8x",
+      "_id": "cj88nu4ph0003326v401yjfct",
       "title": "A4",
-      "startTime": 14,
+      "startTime": 11,
       "length": 5,
       "plane": 3,
-      "activityType": "ac-prox"
+      "activityType": "ac-prox",
+      "streamTarget": "undefined"
     },
     {
-      "_id": "cj88gy93g00073k6t4oes80a1",
+      "_id": "cj88nu4ph0004326vs6xdx0tg",
       "title": "A6",
-      "startTime": 19,
-      "length": 5,
+      "startTime": 16,
+      "length": 8,
       "plane": 2,
       "activityType": "ac-imgView",
       "data": {"canVote": true, "minVote": 2, "canUpload": true, "images": []},
-      "groupingKey": "group"
+      "groupingKey": "group",
+      "streamTarget": "cj88nudnj000c326vt9dhjar6"
+    },
+    {
+      "_id": "cj88nudnj000c326vt9dhjar6",
+      "title": "Kishmish Clustering",
+      "startTime": 0,
+      "length": 28,
+      "plane": 3,
+      "activityType": "ac-imgClass",
+      "data": {
+        "title": "Yo Kishmish! How you doin'? ",
+        "images": [],
+        "categories": [
+          "Bar plot",
+          "Histogram",
+          "Mean plot",
+          "Dot plot ",
+          "Box plot",
+          "Others"
+        ]
+      }
     }
   ],
   "operators": [
     {
-      "_id": "cj88gwnt100053k6tbf7zgpl4",
-      "time": 11.538461538461535,
-      "y": 257,
+      "_id": "cj88nu4ph0005326vyy5yk2pd",
+      "time": 13.407984420642633,
+      "y": 191,
       "type": "social",
       "operatorType": "op-prox"
     },
     {
-      "_id": "cj88hh2cw000c3k6t2ohwo2bq",
-      "time": 15.794117647058824,
-      "y": 305,
+      "_id": "cj88nu4ph0006326vtw0xqa3v",
+      "time": 13.836960879775468,
+      "y": 288,
       "type": "product",
       "operatorType": "op-aggregate-p2",
       "data": {"grouping": "group"}
+    },
+    {
+      "_id": "cj88nyumt0000326vvowiq9bn",
+      "time": 1.3511993465240086,
+      "y": 54,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "individuals": "kshitij",
+        "rules": [{"includeexclude": "include"}]
+      }
+    },
+    {
+      "_id": "cj88o0ks40002326venszzt7h",
+      "time": 3.914313534566697,
+      "y": 55,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "exclude",
+        "individuals": "kshitij",
+        "rules": [{"includeexclude": "include"}]
+      }
     }
   ],
   "connections": [
     {
-      "_id": "cj88gwr6600063k6tyrmufgxf",
-      "source": {"type": "activity", "id": "cj88gwerm00043k6t1u6bqk8x"},
-      "target": {"type": "operator", "id": "cj88gwnt100053k6tbf7zgpl4"}
+      "_id": "cj88nu4pj0007326voanjaty1",
+      "source": {"type": "activity", "id": "cj88nu4ph0003326v401yjfct"},
+      "target": {"type": "operator", "id": "cj88nu4ph0005326vyy5yk2pd"}
     },
     {
-      "_id": "cj88gziqe00083k6t6w7ijz4l",
-      "source": {"type": "operator", "id": "cj88gwnt100053k6tbf7zgpl4"},
-      "target": {"type": "activity", "id": "cj88gy93g00073k6t4oes80a1"}
+      "_id": "cj88nu4pj0008326vt44qj4kw",
+      "source": {"type": "operator", "id": "cj88nu4ph0005326vyy5yk2pd"},
+      "target": {"type": "activity", "id": "cj88nu4ph0004326vs6xdx0tg"}
     },
     {
-      "_id": "cj88hh3o2000d3k6twh8sg2lu",
-      "source": {"type": "activity", "id": "cj88gps4700013k6trbxa0jkc"},
-      "target": {"type": "operator", "id": "cj88hh2cw000c3k6t2ohwo2bq"}
+      "_id": "cj88nu4pj0009326vpe0mt9c2",
+      "source": {"type": "activity", "id": "cj88nu4ph0002326vc29bu4gm"},
+      "target": {"type": "operator", "id": "cj88nu4ph0006326vtw0xqa3v"}
     },
     {
-      "_id": "cj88hh4pr000e3k6thz9215l2",
-      "source": {"type": "operator", "id": "cj88gwnt100053k6tbf7zgpl4"},
-      "target": {"type": "operator", "id": "cj88hh2cw000c3k6t2ohwo2bq"}
+      "_id": "cj88nu4pj000a326v85p1s61z",
+      "source": {"type": "operator", "id": "cj88nu4ph0005326vyy5yk2pd"},
+      "target": {"type": "operator", "id": "cj88nu4ph0006326vtw0xqa3v"}
     },
     {
-      "_id": "cj88hh6mr000f3k6toot1ovkh",
-      "source": {"type": "operator", "id": "cj88hh2cw000c3k6t2ohwo2bq"},
-      "target": {"type": "activity", "id": "cj88gy93g00073k6t4oes80a1"}
+      "_id": "cj88nu4pj000b326v4rv7txly",
+      "source": {"type": "operator", "id": "cj88nu4ph0006326vtw0xqa3v"},
+      "target": {"type": "activity", "id": "cj88nu4ph0004326vs6xdx0tg"}
+    },
+    {
+      "_id": "cj88nzhi90001326vd3fer0w6",
+      "source": {"type": "operator", "id": "cj88nyumt0000326vvowiq9bn"},
+      "target": {"type": "activity", "id": "cj88nudnj000c326vt9dhjar6"}
+    },
+    {
+      "_id": "cj88o0su00003326vhl6girvc",
+      "source": {"type": "operator", "id": "cj88o0ks40002326venszzt7h"},
+      "target": {"type": "activity", "id": "cj88nu4ph0003326v401yjfct"}
+    },
+    {
+      "_id": "cj88o0tvt0004326viktm7qqr",
+      "source": {"type": "operator", "id": "cj88o0ks40002326venszzt7h"},
+      "target": {"type": "activity", "id": "cj88nu4ph0004326vs6xdx0tg"}
+    },
+    {
+      "_id": "cj88o0ut80005326v626pytso",
+      "source": {"type": "operator", "id": "cj88o0ks40002326venszzt7h"},
+      "target": {"type": "activity", "id": "cj88nu4ph0002326vc29bu4gm"}
     }
   ]
 }
