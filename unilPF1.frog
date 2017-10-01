@@ -9,7 +9,7 @@
   "activities": [
     {
       "_id": "cj891sq7t00023i6wf3eh3ayb",
-      "title": "A3",
+      "title": "Individual image upload",
       "startTime": 3,
       "length": 8,
       "plane": 1,
@@ -19,7 +19,7 @@
     },
     {
       "_id": "cj891sq7t00033i6wwt86mf1h",
-      "title": "A4",
+      "title": "Finding groups",
       "startTime": 11,
       "length": 5,
       "plane": 3,
@@ -27,7 +27,7 @@
     },
     {
       "_id": "cj891sq7t00043i6w3n2hdg1z",
-      "title": "A6",
+      "title": "Group img upl/vote",
       "startTime": 16,
       "length": 8,
       "plane": 2,
@@ -58,7 +58,7 @@
     },
     {
       "_id": "cj891sq7u00063i6wgh55r6uj",
-      "title": "A7",
+      "title": "Coffee break",
       "startTime": 24,
       "length": 10,
       "plane": 3,
@@ -70,7 +70,7 @@
     },
     {
       "_id": "cj891sq7u00073i6wspz5qug2",
-      "title": "A9",
+      "title": "Debrief",
       "startTime": 34,
       "length": 5,
       "plane": 3,
@@ -79,7 +79,7 @@
     },
     {
       "_id": "cj894q6sy0000i2p2p1ulke2s",
-      "title": "Unnamed",
+      "title": "Intro",
       "startTime": 0,
       "length": 3,
       "plane": 3,
