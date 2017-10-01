@@ -1,33 +1,32 @@
 {
   "graph": {
-    "_id": "cj88nu4pg0001326vp1vnzdab",
+    "_id": "cj891sq7s00013i6wip6yqgxd",
     "name": "unilPF1",
-    "createdAt": "2017-10-01T11:25:42.868Z",
+    "createdAt": "2017-10-01T17:56:32.056Z",
     "duration": 120,
     "broken": false
   },
   "activities": [
     {
-      "_id": "cj88nu4ph0002326vc29bu4gm",
+      "_id": "cj891sq7t00023i6wf3eh3ayb",
       "title": "A3",
       "startTime": 3,
       "length": 8,
       "plane": 1,
       "activityType": "ac-imgView",
       "data": {"canUpload": true, "images": []},
-      "streamTarget": "cj88nudnj000c326vt9dhjar6"
+      "streamTarget": "cj891sq7u00053i6wa5uic81g"
     },
     {
-      "_id": "cj88nu4ph0003326v401yjfct",
+      "_id": "cj891sq7t00033i6wwt86mf1h",
       "title": "A4",
       "startTime": 11,
       "length": 5,
       "plane": 3,
-      "activityType": "ac-prox",
-      "streamTarget": "undefined"
+      "activityType": "ac-prox"
     },
     {
-      "_id": "cj88nu4ph0004326vs6xdx0tg",
+      "_id": "cj891sq7t00043i6w3n2hdg1z",
       "title": "A6",
       "startTime": 16,
       "length": 8,
@@ -35,13 +34,13 @@
       "activityType": "ac-imgView",
       "data": {"canVote": true, "minVote": 2, "canUpload": true, "images": []},
       "groupingKey": "group",
-      "streamTarget": "cj88nudnj000c326vt9dhjar6"
+      "streamTarget": "cj891sq7u00053i6wa5uic81g"
     },
     {
-      "_id": "cj88nudnj000c326vt9dhjar6",
+      "_id": "cj891sq7u00053i6wa5uic81g",
       "title": "Kishmish Clustering",
-      "startTime": 0,
-      "length": 34,
+      "startTime": 3,
+      "length": 31,
       "plane": 3,
       "activityType": "ac-imgClass",
       "data": {
@@ -58,7 +57,7 @@
       }
     },
     {
-      "_id": "cj88qn3mr0000326vstf2t8dc",
+      "_id": "cj891sq7u00063i6wgh55r6uj",
       "title": "A7",
       "startTime": 24,
       "length": 10,
@@ -70,25 +69,34 @@
       }
     },
     {
-      "_id": "cj88qqqyh0001326v9cutqg8x",
+      "_id": "cj891sq7u00073i6wspz5qug2",
       "title": "A9",
       "startTime": 34,
       "length": 5,
       "plane": 3,
       "activityType": "ac-imgView",
       "data": {"images": []}
+    },
+    {
+      "_id": "cj894q6sy0000i2p2p1ulke2s",
+      "title": "Unnamed",
+      "startTime": 0,
+      "length": 3,
+      "plane": 3,
+      "activityType": "ac-text",
+      "data": {"title": "Cette activité débutera bientôt"}
     }
   ],
   "operators": [
     {
-      "_id": "cj88nu4ph0005326vyy5yk2pd",
+      "_id": "cj891sq7u00083i6w1urjcihj",
       "time": 13.407984420642633,
       "y": 191,
       "type": "social",
       "operatorType": "op-prox"
     },
     {
-      "_id": "cj88nu4ph0006326vtw0xqa3v",
+      "_id": "cj891sq7u00093i6wk56utma7",
       "time": 13.836960879775468,
       "y": 288,
       "type": "product",
@@ -96,7 +104,7 @@
       "data": {"grouping": "group"}
     },
     {
-      "_id": "cj88nyumt0000326vvowiq9bn",
+      "_id": "cj891sq7w000a3i6wttpuxwjt",
       "time": 1.3511993465240086,
       "y": 54,
       "type": "control",
@@ -109,7 +117,7 @@
       }
     },
     {
-      "_id": "cj88o0ks40002326venszzt7h",
+      "_id": "cj891sq7x000b3i6wnv9mja8m",
       "time": 3.914313534566697,
       "y": 55,
       "type": "control",
@@ -124,59 +132,59 @@
   ],
   "connections": [
     {
-      "_id": "cj88nu4pj0007326voanjaty1",
-      "source": {"type": "activity", "id": "cj88nu4ph0003326v401yjfct"},
-      "target": {"type": "operator", "id": "cj88nu4ph0005326vyy5yk2pd"}
+      "_id": "cj891sq7x000c3i6wuqeg0i8q",
+      "source": {"type": "activity", "id": "cj891sq7t00033i6wwt86mf1h"},
+      "target": {"type": "operator", "id": "cj891sq7u00083i6w1urjcihj"}
     },
     {
-      "_id": "cj88nu4pj0008326vt44qj4kw",
-      "source": {"type": "operator", "id": "cj88nu4ph0005326vyy5yk2pd"},
-      "target": {"type": "activity", "id": "cj88nu4ph0004326vs6xdx0tg"}
+      "_id": "cj891sq7x000d3i6wyzcpdsqe",
+      "source": {"type": "operator", "id": "cj891sq7u00083i6w1urjcihj"},
+      "target": {"type": "activity", "id": "cj891sq7t00043i6w3n2hdg1z"}
     },
     {
-      "_id": "cj88nu4pj0009326vpe0mt9c2",
-      "source": {"type": "activity", "id": "cj88nu4ph0002326vc29bu4gm"},
-      "target": {"type": "operator", "id": "cj88nu4ph0006326vtw0xqa3v"}
+      "_id": "cj891sq7y000e3i6w3rxhpv3o",
+      "source": {"type": "activity", "id": "cj891sq7t00023i6wf3eh3ayb"},
+      "target": {"type": "operator", "id": "cj891sq7u00093i6wk56utma7"}
     },
     {
-      "_id": "cj88nu4pj000a326v85p1s61z",
-      "source": {"type": "operator", "id": "cj88nu4ph0005326vyy5yk2pd"},
-      "target": {"type": "operator", "id": "cj88nu4ph0006326vtw0xqa3v"}
+      "_id": "cj891sq7y000f3i6wnz8x41e2",
+      "source": {"type": "operator", "id": "cj891sq7u00083i6w1urjcihj"},
+      "target": {"type": "operator", "id": "cj891sq7u00093i6wk56utma7"}
     },
     {
-      "_id": "cj88nu4pj000b326v4rv7txly",
-      "source": {"type": "operator", "id": "cj88nu4ph0006326vtw0xqa3v"},
-      "target": {"type": "activity", "id": "cj88nu4ph0004326vs6xdx0tg"}
+      "_id": "cj891sq7y000g3i6wk12gy3ki",
+      "source": {"type": "operator", "id": "cj891sq7u00093i6wk56utma7"},
+      "target": {"type": "activity", "id": "cj891sq7t00043i6w3n2hdg1z"}
     },
     {
-      "_id": "cj88nzhi90001326vd3fer0w6",
-      "source": {"type": "operator", "id": "cj88nyumt0000326vvowiq9bn"},
-      "target": {"type": "activity", "id": "cj88nudnj000c326vt9dhjar6"}
+      "_id": "cj891sq7y000h3i6w5bseass1",
+      "source": {"type": "operator", "id": "cj891sq7w000a3i6wttpuxwjt"},
+      "target": {"type": "activity", "id": "cj891sq7u00053i6wa5uic81g"}
     },
     {
-      "_id": "cj88o0su00003326vhl6girvc",
-      "source": {"type": "operator", "id": "cj88o0ks40002326venszzt7h"},
-      "target": {"type": "activity", "id": "cj88nu4ph0003326v401yjfct"}
+      "_id": "cj891sq7y000i3i6w6ppxx5xo",
+      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
+      "target": {"type": "activity", "id": "cj891sq7t00033i6wwt86mf1h"}
     },
     {
-      "_id": "cj88o0tvt0004326viktm7qqr",
-      "source": {"type": "operator", "id": "cj88o0ks40002326venszzt7h"},
-      "target": {"type": "activity", "id": "cj88nu4ph0004326vs6xdx0tg"}
+      "_id": "cj891sq7y000j3i6wmgsuscrm",
+      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
+      "target": {"type": "activity", "id": "cj891sq7t00043i6w3n2hdg1z"}
     },
     {
-      "_id": "cj88o0ut80005326v626pytso",
-      "source": {"type": "operator", "id": "cj88o0ks40002326venszzt7h"},
-      "target": {"type": "activity", "id": "cj88nu4ph0002326vc29bu4gm"}
+      "_id": "cj891sq7y000k3i6w8sut2pis",
+      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
+      "target": {"type": "activity", "id": "cj891sq7t00023i6wf3eh3ayb"}
     },
     {
-      "_id": "cj88qqf110000326v2sgfv1cm",
-      "source": {"type": "operator", "id": "cj88o0ks40002326venszzt7h"},
-      "target": {"type": "activity", "id": "cj88qn3mr0000326vstf2t8dc"}
+      "_id": "cj891sq7y000l3i6wr19w4r2l",
+      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
+      "target": {"type": "activity", "id": "cj891sq7u00063i6wgh55r6uj"}
     },
     {
-      "_id": "cj88qrf4t0002326v0gyvlv0b",
-      "source": {"type": "activity", "id": "cj88nudnj000c326vt9dhjar6"},
-      "target": {"type": "activity", "id": "cj88qqqyh0001326v9cutqg8x"}
+      "_id": "cj891sq7y000m3i6wnev83z7p",
+      "source": {"type": "activity", "id": "cj891sq7u00053i6wa5uic81g"},
+      "target": {"type": "activity", "id": "cj891sq7u00073i6wspz5qug2"}
     }
   ]
 }
