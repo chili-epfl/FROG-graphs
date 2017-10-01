@@ -41,7 +41,7 @@
       "_id": "cj88nudnj000c326vt9dhjar6",
       "title": "Kishmish Clustering",
       "startTime": 0,
-      "length": 28,
+      "length": 34,
       "plane": 3,
       "activityType": "ac-imgClass",
       "data": {
@@ -56,6 +56,27 @@
           "Others"
         ]
       }
+    },
+    {
+      "_id": "cj88qn3mr0000326vstf2t8dc",
+      "title": "A7",
+      "startTime": 24,
+      "length": 10,
+      "plane": 3,
+      "activityType": "ac-text",
+      "data": {
+        "title": "Coffee Break",
+        "text": "Please come back in 10 minutes"
+      }
+    },
+    {
+      "_id": "cj88qqqyh0001326v9cutqg8x",
+      "title": "A9",
+      "startTime": 34,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-imgView",
+      "data": {"images": []}
     }
   ],
   "operators": [
@@ -146,6 +167,16 @@
       "_id": "cj88o0ut80005326v626pytso",
       "source": {"type": "operator", "id": "cj88o0ks40002326venszzt7h"},
       "target": {"type": "activity", "id": "cj88nu4ph0002326vc29bu4gm"}
+    },
+    {
+      "_id": "cj88qqf110000326v2sgfv1cm",
+      "source": {"type": "operator", "id": "cj88o0ks40002326venszzt7h"},
+      "target": {"type": "activity", "id": "cj88qn3mr0000326vstf2t8dc"}
+    },
+    {
+      "_id": "cj88qrf4t0002326v0gyvlv0b",
+      "source": {"type": "activity", "id": "cj88nudnj000c326vt9dhjar6"},
+      "target": {"type": "activity", "id": "cj88qqqyh0001326v9cutqg8x"}
     }
   ]
 }
