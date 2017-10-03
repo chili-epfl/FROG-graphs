@@ -1,24 +1,24 @@
 {
   "graph": {
-    "_id": "cj891sq7s00013i6wip6yqgxd",
+    "_id": "cj8b96h8d0001326un9eue4h3",
     "name": "unilPF1",
-    "createdAt": "2017-10-01T17:56:32.056Z",
+    "createdAt": "2017-10-03T06:58:43.261Z",
     "duration": 40,
     "broken": false
   },
   "activities": [
     {
-      "_id": "cj891sq7t00023i6wf3eh3ayb",
+      "_id": "cj8b96h8e0002326ugfzf6pmw",
       "title": "Individual image upload",
       "startTime": 3,
       "length": 8,
       "plane": 1,
       "activityType": "ac-imgView",
-      "data": {"canUpload": true, "images": []},
-      "streamTarget": "cj891sq7u00053i6wa5uic81g"
+      "data": {"canUpload": true, "filterTrash": false, "images": []},
+      "streamTarget": "cj8b96h8e0005326uktlf3hl5"
     },
     {
-      "_id": "cj891sq7t00033i6wwt86mf1h",
+      "_id": "cj8b96h8e0003326u2w3gvzu1",
       "title": "Finding groups",
       "startTime": 11,
       "length": 5,
@@ -26,7 +26,7 @@
       "activityType": "ac-prox"
     },
     {
-      "_id": "cj891sq7t00043i6w3n2hdg1z",
+      "_id": "cj8b96h8e0004326uww60dxxf",
       "title": "Group img upl/vote",
       "startTime": 16,
       "length": 8,
@@ -34,10 +34,10 @@
       "activityType": "ac-imgView",
       "data": {"canVote": true, "minVote": 2, "canUpload": true, "images": []},
       "groupingKey": "group",
-      "streamTarget": "cj891sq7u00053i6wa5uic81g"
+      "streamTarget": "cj8b96h8e0005326uktlf3hl5"
     },
     {
-      "_id": "cj891sq7u00053i6wa5uic81g",
+      "_id": "cj8b96h8e0005326uktlf3hl5",
       "title": "Kishmish Clustering",
       "startTime": 3,
       "length": 31,
@@ -52,12 +52,13 @@
           "Mean plot",
           "Dot plot ",
           "Box plot",
-          "Others"
+          "Others",
+          "trash"
         ]
       }
     },
     {
-      "_id": "cj891sq7u00063i6wgh55r6uj",
+      "_id": "cj8b96h8e0006326usr2wfsnt",
       "title": "Coffee break",
       "startTime": 24,
       "length": 10,
@@ -69,16 +70,16 @@
       }
     },
     {
-      "_id": "cj891sq7u00073i6wspz5qug2",
+      "_id": "cj8b96h8e0007326urke2e9e7",
       "title": "Debrief",
       "startTime": 34,
       "length": 5,
       "plane": 3,
       "activityType": "ac-imgView",
-      "data": {"images": []}
+      "data": {"filterTrash": true, "images": []}
     },
     {
-      "_id": "cj894q6sy0000i2p2p1ulke2s",
+      "_id": "cj8b96h8e0008326ue1x64sr2",
       "title": "Intro",
       "startTime": 0,
       "length": 3,
@@ -89,14 +90,14 @@
   ],
   "operators": [
     {
-      "_id": "cj891sq7u00083i6w1urjcihj",
+      "_id": "cj8b96h8e0009326uycxoig5b",
       "time": 13.407984420642633,
       "y": 191,
       "type": "social",
       "operatorType": "op-prox"
     },
     {
-      "_id": "cj891sq7u00093i6wk56utma7",
+      "_id": "cj8b96h8e000a326ub4sjhn9n",
       "time": 13.836960879775468,
       "y": 288,
       "type": "product",
@@ -104,7 +105,7 @@
       "data": {"grouping": "group"}
     },
     {
-      "_id": "cj891sq7w000a3i6wttpuxwjt",
+      "_id": "cj8b96h8f000b326uttx9jubc",
       "time": 1.3511993465240086,
       "y": 54,
       "type": "control",
@@ -117,7 +118,7 @@
       }
     },
     {
-      "_id": "cj891sq7x000b3i6wnv9mja8m",
+      "_id": "cj8b96h8g000c326ulbp70pdo",
       "time": 3.914313534566697,
       "y": 55,
       "type": "control",
@@ -132,59 +133,59 @@
   ],
   "connections": [
     {
-      "_id": "cj891sq7x000c3i6wuqeg0i8q",
-      "source": {"type": "activity", "id": "cj891sq7t00033i6wwt86mf1h"},
-      "target": {"type": "operator", "id": "cj891sq7u00083i6w1urjcihj"}
+      "_id": "cj8b96h8g000d326ugvwj2s0n",
+      "source": {"type": "activity", "id": "cj8b96h8e0003326u2w3gvzu1"},
+      "target": {"type": "operator", "id": "cj8b96h8e0009326uycxoig5b"}
     },
     {
-      "_id": "cj891sq7x000d3i6wyzcpdsqe",
-      "source": {"type": "operator", "id": "cj891sq7u00083i6w1urjcihj"},
-      "target": {"type": "activity", "id": "cj891sq7t00043i6w3n2hdg1z"}
+      "_id": "cj8b96h8g000e326ucj3tzsar",
+      "source": {"type": "operator", "id": "cj8b96h8e0009326uycxoig5b"},
+      "target": {"type": "activity", "id": "cj8b96h8e0004326uww60dxxf"}
     },
     {
-      "_id": "cj891sq7y000e3i6w3rxhpv3o",
-      "source": {"type": "activity", "id": "cj891sq7t00023i6wf3eh3ayb"},
-      "target": {"type": "operator", "id": "cj891sq7u00093i6wk56utma7"}
+      "_id": "cj8b96h8g000f326ufbuek2is",
+      "source": {"type": "activity", "id": "cj8b96h8e0002326ugfzf6pmw"},
+      "target": {"type": "operator", "id": "cj8b96h8e000a326ub4sjhn9n"}
     },
     {
-      "_id": "cj891sq7y000f3i6wnz8x41e2",
-      "source": {"type": "operator", "id": "cj891sq7u00083i6w1urjcihj"},
-      "target": {"type": "operator", "id": "cj891sq7u00093i6wk56utma7"}
+      "_id": "cj8b96h8g000g326u9x252ypq",
+      "source": {"type": "operator", "id": "cj8b96h8e0009326uycxoig5b"},
+      "target": {"type": "operator", "id": "cj8b96h8e000a326ub4sjhn9n"}
     },
     {
-      "_id": "cj891sq7y000g3i6wk12gy3ki",
-      "source": {"type": "operator", "id": "cj891sq7u00093i6wk56utma7"},
-      "target": {"type": "activity", "id": "cj891sq7t00043i6w3n2hdg1z"}
+      "_id": "cj8b96h8g000h326uijkr7yjo",
+      "source": {"type": "operator", "id": "cj8b96h8e000a326ub4sjhn9n"},
+      "target": {"type": "activity", "id": "cj8b96h8e0004326uww60dxxf"}
     },
     {
-      "_id": "cj891sq7y000h3i6w5bseass1",
-      "source": {"type": "operator", "id": "cj891sq7w000a3i6wttpuxwjt"},
-      "target": {"type": "activity", "id": "cj891sq7u00053i6wa5uic81g"}
+      "_id": "cj8b96h8g000i326udgip8gud",
+      "source": {"type": "operator", "id": "cj8b96h8f000b326uttx9jubc"},
+      "target": {"type": "activity", "id": "cj8b96h8e0005326uktlf3hl5"}
     },
     {
-      "_id": "cj891sq7y000i3i6w6ppxx5xo",
-      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
-      "target": {"type": "activity", "id": "cj891sq7t00033i6wwt86mf1h"}
+      "_id": "cj8b96h8g000j326uaubxa2er",
+      "source": {"type": "operator", "id": "cj8b96h8g000c326ulbp70pdo"},
+      "target": {"type": "activity", "id": "cj8b96h8e0003326u2w3gvzu1"}
     },
     {
-      "_id": "cj891sq7y000j3i6wmgsuscrm",
-      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
-      "target": {"type": "activity", "id": "cj891sq7t00043i6w3n2hdg1z"}
+      "_id": "cj8b96h8g000k326uscbde8sq",
+      "source": {"type": "operator", "id": "cj8b96h8g000c326ulbp70pdo"},
+      "target": {"type": "activity", "id": "cj8b96h8e0004326uww60dxxf"}
     },
     {
-      "_id": "cj891sq7y000k3i6w8sut2pis",
-      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
-      "target": {"type": "activity", "id": "cj891sq7t00023i6wf3eh3ayb"}
+      "_id": "cj8b96h8g000l326uusrzlw4c",
+      "source": {"type": "operator", "id": "cj8b96h8g000c326ulbp70pdo"},
+      "target": {"type": "activity", "id": "cj8b96h8e0002326ugfzf6pmw"}
     },
     {
-      "_id": "cj891sq7y000l3i6wr19w4r2l",
-      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
-      "target": {"type": "activity", "id": "cj891sq7u00063i6wgh55r6uj"}
+      "_id": "cj8b96h8g000m326u7y65impv",
+      "source": {"type": "operator", "id": "cj8b96h8g000c326ulbp70pdo"},
+      "target": {"type": "activity", "id": "cj8b96h8e0006326usr2wfsnt"}
     },
     {
-      "_id": "cj891sq7y000m3i6wnev83z7p",
-      "source": {"type": "activity", "id": "cj891sq7u00053i6wa5uic81g"},
-      "target": {"type": "activity", "id": "cj891sq7u00073i6wspz5qug2"}
+      "_id": "cj8b96h8g000n326ue18j9szb",
+      "source": {"type": "activity", "id": "cj8b96h8e0005326uktlf3hl5"},
+      "target": {"type": "activity", "id": "cj8b96h8e0007326urke2e9e7"}
     }
   ]
 }
