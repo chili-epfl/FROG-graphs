@@ -1,0 +1,276 @@
+{
+  "graph": {
+    "_id": "cj804n35b0017069ukak3yszf",
+    "name": "Unnamed",
+    "createdAt": "2017-09-25T12:06:12.143Z",
+    "duration": 120,
+    "broken": true
+  },
+  "activities": [
+    {
+      "_id": "cj804n35c0019069uavu6r05a",
+      "title": "Display topic groups",
+      "startTime": 5,
+      "length": 5,
+      "plane": 2,
+      "activityType": "ac-display-social",
+      "data": {"title": "Topic groups", "displayName": true},
+      "groupingKey": "topic"
+    },
+    {
+      "_id": "cj804n35c001a069utsng5u8w",
+      "title": "Stakeholders",
+      "startTime": 10,
+      "length": 5,
+      "plane": 2,
+      "activityType": "ac-ck-board",
+      "data": {
+        "image": true,
+        "imageurl": "https://i.imgur.com/PzO30iL.png",
+        "boxes": [{}]
+      },
+      "groupingKey": "topic"
+    },
+    {
+      "_id": "cj804n35c001b069usi0dvfm3",
+      "title": "Research lifecycle",
+      "startTime": 30,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-ck-board",
+      "data": {
+        "image": true,
+        "imageurl": "https://i.imgur.com/PzO30iL.png",
+        "boxes": [{}]
+      }
+    },
+    {
+      "_id": "cj804n35c001c069up2x0d28p",
+      "title": "OSI",
+      "startTime": 15,
+      "length": 5,
+      "plane": 2,
+      "activityType": "ac-ck-board",
+      "data": {
+        "image": true,
+        "imageurl": "https://i.imgur.com/PzO30iL.png",
+        "boxes": [{}]
+      },
+      "groupingKey": "topic"
+    },
+    {
+      "_id": "cj804n35c001d069uly6mnlcn",
+      "title": "Unnamed",
+      "startTime": 20,
+      "length": 5,
+      "plane": 2,
+      "activityType": "ac-ck-board",
+      "data": {
+        "image": true,
+        "imageurl": "https://i.imgur.com/PzO30iL.png",
+        "boxes": [{}]
+      },
+      "groupingKey": "topic"
+    },
+    {
+      "_id": "cj804n35c001e069uo5oeoqtq",
+      "title": "Brainstorm obstacles",
+      "startTime": 25,
+      "length": 5,
+      "plane": 2,
+      "activityType": "ac-brainstorm",
+      "data": {
+        "text": "What are obstacles to open science in your discipline?",
+        "formBoolean": true
+      },
+      "groupingKey": "topic"
+    },
+    {
+      "_id": "cj804n35c001f069ukxu5f0gg",
+      "title": "Respond to issues",
+      "startTime": 35,
+      "length": 5,
+      "plane": 2,
+      "activityType": "ac-brainstorm",
+      "data": {"text": "Choose some issues and respond", "formBoolean": false},
+      "groupingKey": "name"
+    },
+    {
+      "_id": "cj804n35c001g069u432poden",
+      "title": "See all life cycle",
+      "startTime": 40,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-ck-board",
+      "data": {
+        "image": true,
+        "imageurl": "https://i.imgur.com/PzO30iL.png",
+        "boxes": [{}]
+      }
+    },
+    {
+      "_id": "cj804n35c001h069ua8v3yv8o",
+      "title": "See all questions",
+      "startTime": 40,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-brainstorm",
+      "data": {
+        "text": "Can you respond to any of these questions during the week or did you think of new ones?",
+        "formBoolean": true
+      }
+    },
+    {
+      "_id": "cj804n35c0018069uds62lm1f",
+      "title": "Display name groups",
+      "startTime": 0,
+      "length": 5,
+      "plane": 2,
+      "activityType": "ac-display-social",
+      "data": {"displayName": true},
+      "groupingKey": "name"
+    }
+  ],
+  "operators": [
+    {
+      "_id": "cj804n35c001i069u2gk4e6yy",
+      "time": 1.9234913793103448,
+      "y": 45,
+      "type": "social",
+      "operatorType": "op-social-name",
+      "data": {
+        "groupnames": "name, topic",
+        "defaultgroup": "1,1",
+        "studentmapping": "Akyazi Pinar,1,5\nArena Damiano Nunzio,1,4\nBaïz lmane,1,6\nBegy Volodimir,1,5\nCretenoud Aline Françoise,2,1\nDenhardt-Eriksson Robin Alexander,2,2\nDümbgen Frederike,2,5\nFaucon Louis Pierre,2,6\nGobet Cédric André,3,2\nGuiraud Laetitia,3,7\nHeinonen Tytti,3,1\nHsieh Shanshan,3,3\nJoseph Rémy Elie,4,5\nKern Charlotte,4,6\nList Cornelia,4,1\nMacchini Matteo,4,4\nMarion Solenne Anne Marie,5,6\nMeirelles de Miranda João Vitor,5,3\nMolina-Calavita Maria,5,7\nMüller Martin Mathias,5,2\nNaret Olivier Noël Marie,6,2\nPalmieri Fabio,6,1\nPerera Amarasinghage Tharindu Dasun,6,3\nRomani Mario,6,7\nSepúlveda Steiner Oscar Rodrigo,7,3\nSorba Francesca,7,4\nThalmann Etienne Frédéric Gabriel,7,4\nViacava Romo Karen Elda,7,7\nLuc Henry,1,1"
+      }
+    },
+    {
+      "_id": "cj804n35c001j069uvyyujqzh",
+      "time": 24.14320487152435,
+      "y": 23,
+      "type": "product",
+      "operatorType": "op-aggregate",
+      "data": {"chooseTop": false, "topN": 2, "addCat": true}
+    },
+    {
+      "_id": "cj804n35c001k069u4vjk62tj",
+      "time": 14.434543872551457,
+      "y": 53,
+      "type": "product",
+      "operatorType": "op-add-cat",
+      "data": {"category": "topic", "value": "stakeholders"}
+    },
+    {
+      "_id": "cj804n35d001l069uhz1w63iw",
+      "time": 15.81056978453358,
+      "y": 107,
+      "type": "product",
+      "operatorType": "op-add-cat",
+      "data": {"category": "topic", "value": "OSI"}
+    },
+    {
+      "_id": "cj804n35d001m069uo7755wvu",
+      "time": 21.747815586060135,
+      "y": 111,
+      "type": "product"
+    },
+    {
+      "_id": "cj804n35d001n069uq5msk8bu",
+      "time": 33.487528559730954,
+      "y": 43,
+      "type": "product"
+    }
+  ],
+  "connections": [
+    {
+      "_id": "cj804n35d001o069urwqn9wp3",
+      "source": {"type": "operator", "id": "cj804n35c001i069u2gk4e6yy"},
+      "target": {"type": "activity", "id": "cj804n35c0018069uds62lm1f"}
+    },
+    {
+      "_id": "cj804n35d001p069u4pwtson7",
+      "source": {"type": "operator", "id": "cj804n35c001i069u2gk4e6yy"},
+      "target": {"type": "activity", "id": "cj804n35c0019069uavu6r05a"}
+    },
+    {
+      "_id": "cj804n35d001q069u9ovka1ma",
+      "source": {"type": "operator", "id": "cj804n35c001i069u2gk4e6yy"},
+      "target": {"type": "activity", "id": "cj804n35c001a069utsng5u8w"}
+    },
+    {
+      "_id": "cj804n35d001r069uozqb68mk",
+      "source": {"type": "operator", "id": "cj804n35c001j069uvyyujqzh"},
+      "target": {"type": "activity", "id": "cj804n35c001b069usi0dvfm3"}
+    },
+    {
+      "_id": "cj804n35d001s069uztaq8ksf",
+      "source": {"type": "activity", "id": "cj804n35c001a069utsng5u8w"},
+      "target": {"type": "operator", "id": "cj804n35c001k069u4vjk62tj"}
+    },
+    {
+      "_id": "cj804n35d001t069uang7i3ol",
+      "source": {"type": "operator", "id": "cj804n35c001k069u4vjk62tj"},
+      "target": {"type": "operator", "id": "cj804n35c001j069uvyyujqzh"}
+    },
+    {
+      "_id": "cj804n35d001u069uj7whmjgh",
+      "source": {"type": "activity", "id": "cj804n35c001c069up2x0d28p"},
+      "target": {"type": "operator", "id": "cj804n35d001l069uhz1w63iw"}
+    },
+    {
+      "_id": "cj804n35d001v069uohuqin8h",
+      "source": {"type": "operator", "id": "cj804n35d001l069uhz1w63iw"},
+      "target": {"type": "operator", "id": "cj804n35c001j069uvyyujqzh"}
+    },
+    {
+      "_id": "cj804n35d001w069ur033j0it",
+      "source": {"type": "operator", "id": "cj804n35c001i069u2gk4e6yy"},
+      "target": {"type": "activity", "id": "cj804n35c001c069up2x0d28p"}
+    },
+    {
+      "_id": "cj804n35d001x069u836kxllj",
+      "source": {"type": "operator", "id": "cj804n35c001i069u2gk4e6yy"},
+      "target": {"type": "activity", "id": "cj804n35c001d069uly6mnlcn"}
+    },
+    {
+      "_id": "cj804n35d001y069u8b1smuar",
+      "source": {"type": "activity", "id": "cj804n35c001d069uly6mnlcn"},
+      "target": {"type": "operator", "id": "cj804n35d001m069uo7755wvu"}
+    },
+    {
+      "_id": "cj804n35d001z069ui9a3zf78",
+      "source": {"type": "operator", "id": "cj804n35d001m069uo7755wvu"},
+      "target": {"type": "operator", "id": "cj804n35c001j069uvyyujqzh"}
+    },
+    {
+      "_id": "cj804n35d0020069ulbn1tv6f",
+      "source": {"type": "operator", "id": "cj804n35c001i069u2gk4e6yy"},
+      "target": {"type": "activity", "id": "cj804n35c001e069uo5oeoqtq"}
+    },
+    {
+      "_id": "cj804n35d0021069ukhdok0v8",
+      "source": {"type": "operator", "id": "cj804n35c001i069u2gk4e6yy"},
+      "target": {"type": "activity", "id": "cj804n35c001f069ukxu5f0gg"}
+    },
+    {
+      "_id": "cj804n35d0022069ucuvt0t69",
+      "source": {"type": "activity", "id": "cj804n35c001e069uo5oeoqtq"},
+      "target": {"type": "operator", "id": "cj804n35d001n069uq5msk8bu"}
+    },
+    {
+      "_id": "cj804n35d0023069uznwqapym",
+      "source": {"type": "operator", "id": "cj804n35d001n069uq5msk8bu"},
+      "target": {"type": "activity", "id": "cj804n35c001f069ukxu5f0gg"}
+    },
+    {
+      "_id": "cj804n35d0024069uq0shxsju",
+      "source": {"type": "operator", "id": "cj804n35c001j069uvyyujqzh"},
+      "target": {"type": "activity", "id": "cj804n35c001g069u432poden"}
+    },
+    {
+      "_id": "cj804n35d0025069uqvw0503o",
+      "source": {"type": "operator", "id": "cj804n35d001n069uq5msk8bu"},
+      "target": {"type": "activity", "id": "cj804n35c001h069ua8v3yv8o"}
+    }
+  ]
+}
