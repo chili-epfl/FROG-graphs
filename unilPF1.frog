@@ -1,32 +1,33 @@
 {
   "graph": {
-    "_id": "cj891sq7s00013i6wip6yqgxd",
-    "name": "unilPF1",
-    "createdAt": "2017-10-01T17:56:32.056Z",
+    "_id": "cj8fv8j8y000v06rcoarr6x50",
+    "name": "#unilPF1 13",
+    "createdAt": "2017-10-06T12:27:15.442Z",
     "duration": 40,
     "broken": false
   },
   "activities": [
     {
-      "_id": "cj891sq7t00023i6wf3eh3ayb",
+      "_id": "cj8fv8jas000w06rcdx06tb1k",
       "title": "Individual image upload",
       "startTime": 3,
       "length": 8,
       "plane": 1,
       "activityType": "ac-imgView",
       "data": {"canUpload": true, "images": []},
-      "streamTarget": "cj891sq7u00053i6wa5uic81g"
+      "streamTarget": "cj8fv8jas000z06rcm4b396wy"
     },
     {
-      "_id": "cj891sq7t00033i6wwt86mf1h",
+      "_id": "cj8fv8jas000x06rcw6t9oqez",
       "title": "Finding groups",
       "startTime": 11,
       "length": 5,
       "plane": 3,
-      "activityType": "ac-prox"
+      "activityType": "ac-prox",
+      "streamTarget": null
     },
     {
-      "_id": "cj891sq7t00043i6w3n2hdg1z",
+      "_id": "cj8fv8jas000y06rcmndq316v",
       "title": "Group img upl/vote",
       "startTime": 16,
       "length": 8,
@@ -34,10 +35,10 @@
       "activityType": "ac-imgView",
       "data": {"canVote": true, "minVote": 2, "canUpload": true, "images": []},
       "groupingKey": "group",
-      "streamTarget": "cj891sq7u00053i6wa5uic81g"
+      "streamTarget": "cj8fv8jas000z06rcm4b396wy"
     },
     {
-      "_id": "cj891sq7u00053i6wa5uic81g",
+      "_id": "cj8fv8jas000z06rcm4b396wy",
       "title": "Kishmish Clustering",
       "startTime": 3,
       "length": 31,
@@ -52,12 +53,14 @@
           "Mean plot",
           "Dot plot ",
           "Box plot",
-          "Others"
+          "Others",
+          "trash"
         ]
-      }
+      },
+      "streamTarget": null
     },
     {
-      "_id": "cj891sq7u00063i6wgh55r6uj",
+      "_id": "cj8fv8jas001006rcufkseo6n",
       "title": "Coffee break",
       "startTime": 24,
       "length": 10,
@@ -66,37 +69,40 @@
       "data": {
         "title": "Coffee Break",
         "text": "Please come back in 10 minutes"
-      }
+      },
+      "streamTarget": null
     },
     {
-      "_id": "cj891sq7u00073i6wspz5qug2",
+      "_id": "cj8fv8jas001106rch666dl1e",
       "title": "Debrief",
       "startTime": 34,
       "length": 5,
       "plane": 3,
       "activityType": "ac-imgView",
-      "data": {"images": []}
+      "data": {"filterTrash": true, "images": []},
+      "streamTarget": null
     },
     {
-      "_id": "cj894q6sy0000i2p2p1ulke2s",
+      "_id": "cj8fv8jas001206rcnd70pzc5",
       "title": "Intro",
       "startTime": 0,
       "length": 3,
       "plane": 3,
       "activityType": "ac-text",
-      "data": {"title": "Cette activité débutera bientôt"}
+      "data": {"title": "Cette activité débutera bientôt"},
+      "streamTarget": null
     }
   ],
   "operators": [
     {
-      "_id": "cj891sq7u00083i6w1urjcihj",
+      "_id": "cj8fv8jas001306rcugsi1jqq",
       "time": 13.407984420642633,
       "y": 191,
       "type": "social",
       "operatorType": "op-prox"
     },
     {
-      "_id": "cj891sq7u00093i6wk56utma7",
+      "_id": "cj8fv8jas001406rcv9la5mxa",
       "time": 13.836960879775468,
       "y": 288,
       "type": "product",
@@ -104,7 +110,7 @@
       "data": {"grouping": "group"}
     },
     {
-      "_id": "cj891sq7w000a3i6wttpuxwjt",
+      "_id": "cj8fv8jas001506rcwyoqlmsv",
       "time": 1.3511993465240086,
       "y": 54,
       "type": "control",
@@ -112,12 +118,12 @@
       "data": {
         "applytoall": true,
         "includeexclude": "include",
-        "individuals": "kshitij",
-        "rules": [{"includeexclude": "include"}]
+        "individuals": "Kshitij Kshitij",
+        "rules": [{"includeexclude": "include", "activity": null}]
       }
     },
     {
-      "_id": "cj891sq7x000b3i6wnv9mja8m",
+      "_id": "cj8fv8jas001606rcx17etyvo",
       "time": 3.914313534566697,
       "y": 55,
       "type": "control",
@@ -125,66 +131,84 @@
       "data": {
         "applytoall": true,
         "includeexclude": "exclude",
-        "individuals": "kshitij",
-        "rules": [{"includeexclude": "include"}]
+        "individuals": "Kshitij Kshitij",
+        "rules": [{"includeexclude": "include", "activity": null}]
+      }
+    },
+    {
+      "_id": "cj8fv8jat001706rc4sntjeep",
+      "time": 36.04736842105263,
+      "y": 72,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "individuals": "Olivier Gallay,Valérie Chavez,Kshitij Kshitij,Stian Haklev",
+        "rules": [{"includeexclude": "include", "activity": null}]
       }
     }
   ],
   "connections": [
     {
-      "_id": "cj891sq7x000c3i6wuqeg0i8q",
-      "source": {"type": "activity", "id": "cj891sq7t00033i6wwt86mf1h"},
-      "target": {"type": "operator", "id": "cj891sq7u00083i6w1urjcihj"}
+      "_id": "cj8fv8jat001806rcrtpmlbka",
+      "source": {"id": "cj8fv8jas000x06rcw6t9oqez", "type": "activity"},
+      "target": {"id": "cj8fv8jas001306rcugsi1jqq", "type": "operator"}
     },
     {
-      "_id": "cj891sq7x000d3i6wyzcpdsqe",
-      "source": {"type": "operator", "id": "cj891sq7u00083i6w1urjcihj"},
-      "target": {"type": "activity", "id": "cj891sq7t00043i6w3n2hdg1z"}
+      "_id": "cj8fv8jat001906rcv7dfpgyt",
+      "source": {"id": "cj8fv8jas001306rcugsi1jqq", "type": "operator"},
+      "target": {"id": "cj8fv8jas000y06rcmndq316v", "type": "activity"}
     },
     {
-      "_id": "cj891sq7y000e3i6w3rxhpv3o",
-      "source": {"type": "activity", "id": "cj891sq7t00023i6wf3eh3ayb"},
-      "target": {"type": "operator", "id": "cj891sq7u00093i6wk56utma7"}
+      "_id": "cj8fv8jat001a06rc750zhx38",
+      "source": {"id": "cj8fv8jas000w06rcdx06tb1k", "type": "activity"},
+      "target": {"id": "cj8fv8jas001406rcv9la5mxa", "type": "operator"}
     },
     {
-      "_id": "cj891sq7y000f3i6wnz8x41e2",
-      "source": {"type": "operator", "id": "cj891sq7u00083i6w1urjcihj"},
-      "target": {"type": "operator", "id": "cj891sq7u00093i6wk56utma7"}
+      "_id": "cj8fv8jat001b06rcv2gdeds6",
+      "source": {"id": "cj8fv8jas001306rcugsi1jqq", "type": "operator"},
+      "target": {"id": "cj8fv8jas001406rcv9la5mxa", "type": "operator"}
     },
     {
-      "_id": "cj891sq7y000g3i6wk12gy3ki",
-      "source": {"type": "operator", "id": "cj891sq7u00093i6wk56utma7"},
-      "target": {"type": "activity", "id": "cj891sq7t00043i6w3n2hdg1z"}
+      "_id": "cj8fv8jat001c06rc4hc3tz1q",
+      "source": {"id": "cj8fv8jas001406rcv9la5mxa", "type": "operator"},
+      "target": {"id": "cj8fv8jas000y06rcmndq316v", "type": "activity"}
     },
     {
-      "_id": "cj891sq7y000h3i6w5bseass1",
-      "source": {"type": "operator", "id": "cj891sq7w000a3i6wttpuxwjt"},
-      "target": {"type": "activity", "id": "cj891sq7u00053i6wa5uic81g"}
+      "_id": "cj8fv8jat001d06rcsgpwua6c",
+      "source": {"id": "cj8fv8jas001506rcwyoqlmsv", "type": "operator"},
+      "target": {"id": "cj8fv8jas000z06rcm4b396wy", "type": "activity"}
     },
     {
-      "_id": "cj891sq7y000i3i6w6ppxx5xo",
-      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
-      "target": {"type": "activity", "id": "cj891sq7t00033i6wwt86mf1h"}
+      "_id": "cj8fv8jat001e06rcv9o7eh4b",
+      "source": {"id": "cj8fv8jas001606rcx17etyvo", "type": "operator"},
+      "target": {"id": "cj8fv8jas000x06rcw6t9oqez", "type": "activity"}
     },
     {
-      "_id": "cj891sq7y000j3i6wmgsuscrm",
-      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
-      "target": {"type": "activity", "id": "cj891sq7t00043i6w3n2hdg1z"}
+      "_id": "cj8fv8jat001f06rcc1a0dxt1",
+      "source": {"id": "cj8fv8jas001606rcx17etyvo", "type": "operator"},
+      "target": {"id": "cj8fv8jas000y06rcmndq316v", "type": "activity"}
     },
     {
-      "_id": "cj891sq7y000k3i6w8sut2pis",
-      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
-      "target": {"type": "activity", "id": "cj891sq7t00023i6wf3eh3ayb"}
+      "_id": "cj8fv8jat001g06rca92wy967",
+      "source": {"id": "cj8fv8jas001606rcx17etyvo", "type": "operator"},
+      "target": {"id": "cj8fv8jas000w06rcdx06tb1k", "type": "activity"}
     },
     {
-      "_id": "cj891sq7y000l3i6wr19w4r2l",
-      "source": {"type": "operator", "id": "cj891sq7x000b3i6wnv9mja8m"},
-      "target": {"type": "activity", "id": "cj891sq7u00063i6wgh55r6uj"}
+      "_id": "cj8fv8jat001h06rcjjau32m4",
+      "source": {"id": "cj8fv8jas001606rcx17etyvo", "type": "operator"},
+      "target": {"id": "cj8fv8jas001006rcufkseo6n", "type": "activity"}
     },
     {
-      "_id": "cj891sq7y000m3i6wnev83z7p",
-      "source": {"type": "activity", "id": "cj891sq7u00053i6wa5uic81g"},
-      "target": {"type": "activity", "id": "cj891sq7u00073i6wspz5qug2"}
+      "_id": "cj8fv8jat001i06rcrjlp9whn",
+      "source": {"id": "cj8fv8jas000z06rcm4b396wy", "type": "activity"},
+      "target": {"id": "cj8fv8jas001106rch666dl1e", "type": "activity"}
+    },
+    {
+      "_id": "cj8fv8jat001j06rciplp46j4",
+      "source": {"id": "cj8fv8jat001706rc4sntjeep", "type": "operator"},
+      "target": {"id": "cj8fv8jas001106rch666dl1e", "type": "activity"}
     }
   ]
 }

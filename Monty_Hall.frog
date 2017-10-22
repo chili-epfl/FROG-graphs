@@ -1,0 +1,145 @@
+{
+  "graph": {
+    "_id": "cj8pvzqhv00003i6xrwbo01cm",
+    "name": "Monty Hall",
+    "createdAt": "2017-10-13T12:46:06.309Z",
+    "duration": 120,
+    "broken": false
+  },
+  "activities": [
+    {
+      "_id": "cj8twa01z00003i6x6rw6fkuy",
+      "title": "Intro text",
+      "startTime": 0,
+      "length": 4,
+      "plane": 3,
+      "activityType": "ac-text",
+      "data": {"title": "Cette activité débutera bientôt"}
+    },
+    {
+      "_id": "cj8twbah8000q3i6xre5dxal0",
+      "title": "Kishmish clustering",
+      "startTime": 4,
+      "length": 15,
+      "plane": 3,
+      "activityType": "ac-imgClass",
+      "data": {"images": [], "categories": []}
+    },
+    {
+      "_id": "cj8twc8bf000v3i6xx93rah4m",
+      "title": "Monty",
+      "startTime": 4,
+      "length": 5,
+      "plane": 1,
+      "activityType": "ac-monty",
+      "data": {},
+      "streamTarget": "cj8twbah8000q3i6xre5dxal0"
+    },
+    {
+      "_id": "cj8twcrx9000w3i6xidmsjrj4",
+      "title": "Group",
+      "startTime": 9,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-prox"
+    },
+    {
+      "_id": "cj8twe0wx000z3i6xuhk63j8a",
+      "title": "Unnamed",
+      "startTime": 14,
+      "length": 5,
+      "plane": 2,
+      "activityType": "ac-monty",
+      "data": {},
+      "streamTarget": "cj8twbah8000q3i6xre5dxal0",
+      "groupingKey": "group"
+    },
+    {
+      "_id": "cj8twmkfw00023i6x6k4qd9zh",
+      "title": "Debrief",
+      "startTime": 19,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-monty",
+      "data": {}
+    },
+    {
+      "_id": "cj8twmpm500033i6x71s7zcgm",
+      "title": "Coffee break",
+      "startTime": 19,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-text",
+      "data": {"title": "Pause-café"}
+    },
+    {
+      "_id": "cj8twopuf00063i6xfmvfxuqb",
+      "title": "Post-test",
+      "startTime": 24,
+      "length": 5,
+      "plane": 1,
+      "activityType": "ac-quiz",
+      "data": {
+        "title": "Post-test",
+        "questions": [{"answers": ["a", "b"], "question": "Q1"}]
+      }
+    }
+  ],
+  "operators": [
+    {
+      "_id": "cj8twd6j6000x3i6x66k513jg",
+      "time": 4.361873990306947,
+      "y": 34,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "individuals": "Kshitij Kshitij,stian",
+        "rules": [{"includeexclude": "include"}]
+      }
+    },
+    {
+      "_id": "cj8twigi900003i6x386eu0ck",
+      "time": 15.285081148807187,
+      "y": 51,
+      "type": "social",
+      "operatorType": "op-prox"
+    },
+    {
+      "_id": "cj8twnuze00043i6xu4ewy9tn",
+      "time": 20.985460420032314,
+      "y": 240,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "individuals": "Olivier Gallay,Valérie Chavez,Kshitij Kshitij,Stian Haklev,stian",
+        "rules": [{"includeexclude": "include"}]
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "cj8twd9tc000y3i6xrbavqxok",
+      "source": {"type": "operator", "id": "cj8twd6j6000x3i6x66k513jg"},
+      "target": {"type": "activity", "id": "cj8twbah8000q3i6xre5dxal0"}
+    },
+    {
+      "_id": "cj8twlt9w00003i6xtik048k9",
+      "source": {"type": "activity", "id": "cj8twcrx9000w3i6xidmsjrj4"},
+      "target": {"type": "operator", "id": "cj8twigi900003i6x386eu0ck"}
+    },
+    {
+      "_id": "cj8twlu4m00013i6x213nppym",
+      "source": {"type": "operator", "id": "cj8twigi900003i6x386eu0ck"},
+      "target": {"type": "activity", "id": "cj8twe0wx000z3i6xuhk63j8a"}
+    },
+    {
+      "_id": "cj8twnw4j00053i6x0lj6cmb9",
+      "source": {"type": "operator", "id": "cj8twnuze00043i6xu4ewy9tn"},
+      "target": {"type": "activity", "id": "cj8twmkfw00023i6x6k4qd9zh"}
+    }
+  ]
+}
