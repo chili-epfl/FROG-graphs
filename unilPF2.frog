@@ -1,0 +1,228 @@
+{
+  "graph": {
+    "_id": "cj901tf0p00003i6tufifa2fa",
+    "name": "unilPF2",
+    "createdAt": "2017-10-20T15:26:50.955Z",
+    "duration": 120,
+    "broken": false
+  },
+  "activities": [
+    {
+      "_id": "cj901tii400013i6twz1firyq",
+      "title": "Upload Images",
+      "startTime": 0,
+      "length": 5,
+      "plane": 1,
+      "activityType": "ac-image",
+      "data": {"canUpload": true, "images": []},
+      "streamTarget": "cj901u24b00023i6tptd0iy8i"
+    },
+    {
+      "_id": "cj901u24b00023i6tptd0iy8i",
+      "title": "Classifier",
+      "startTime": 0,
+      "length": 10,
+      "plane": 3,
+      "activityType": "ac-classifier",
+      "data": {
+        "title": "Let's run KNN! (Kshitij Neural Network)",
+        "images": [],
+        "categories": ["diagram", "table", "tree", "trash"]
+      }
+    },
+    {
+      "_id": "cj901vw6v00033i6t6eat9c6a",
+      "title": "Create groups",
+      "startTime": 5,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-prox"
+    },
+    {
+      "_id": "cj901ytbn000b3i6tpz9y6nre",
+      "title": "Commenting Solutions",
+      "startTime": 10,
+      "length": 10,
+      "plane": 2,
+      "activityType": "ac-image",
+      "data": {
+        "canVote": false,
+        "canUpload": false,
+        "canComment": true,
+        "hideCategory": true,
+        "images": [],
+        "minVote": 1
+      },
+      "groupingKey": "group"
+    },
+    {
+      "_id": "cj9021fwz000c3i6tc484we6x",
+      "title": "Post Test",
+      "startTime": 25,
+      "length": 10,
+      "plane": 1,
+      "activityType": "ac-quiz",
+      "data": {
+        "title": "Super Quiz",
+        "guidelines": "Answer the super question pliz",
+        "questions": [
+          {
+            "answers": [
+              "$e^{i \\pi} + 1 = 0$",
+              "$\\sum_{k>0} \\frac{1}{k^2} = \\frac{\\pi^2}{6}$",
+              "$1+1=2$"
+            ],
+            "question": "Which of this equation is the prettiest?"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "cj9027yp6000f3i6ttwtkjhtm",
+      "title": "Briefing",
+      "startTime": 20,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-image",
+      "data": {"images": [{"categories": []}]}
+    }
+  ],
+  "operators": [
+    {
+      "_id": "cj901wli000043i6ttk0mz83f",
+      "time": 9.935527982232347,
+      "y": 184,
+      "type": "social",
+      "operatorType": "op-prox",
+      "title": "Operator Proximity"
+    },
+    {
+      "_id": "cj901xctb00063i6tnyhagqht",
+      "time": -0.07695343330702359,
+      "y": -2,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "individuals": "kshitij",
+        "rules": [{"includeexclude": "include"}]
+      }
+    },
+    {
+      "_id": "cj901xqty00083i6tf0o4grnn",
+      "time": -0.0693819863805733,
+      "y": 38,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "exclude",
+        "individuals": "kshitij",
+        "rules": [{"includeexclude": "include"}]
+      }
+    },
+    {
+      "_id": "cj9028ncp000g3i6tofxulh6x",
+      "time": 7.21153131733414,
+      "y": 259,
+      "type": "product",
+      "operatorType": "op-distribute-category",
+      "data": {},
+      "title": "Distribute Categorized"
+    },
+    {
+      "_id": "cj9028qi3000h3i6tcoger1h0",
+      "time": 15.722591362126263,
+      "y": 120,
+      "type": "product",
+      "operatorType": "op-filter",
+      "data": {"field": "selected", "removeUndefined": true}
+    },
+    {
+      "_id": "cj9074vhg00003i6twyjkk4bi",
+      "time": 4.116583423872357,
+      "y": 258,
+      "type": "product",
+      "operatorType": "op-filter",
+      "data": {
+        "field": "category",
+        "value": "trash",
+        "remove": true,
+        "removeUndefined": true
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "cj901wqp500053i6tzr52q1rq",
+      "source": {"type": "activity", "id": "cj901vw6v00033i6t6eat9c6a"},
+      "target": {"type": "operator", "id": "cj901wli000043i6ttk0mz83f"}
+    },
+    {
+      "_id": "cj901xdrw00073i6taupx6hsi",
+      "source": {"type": "operator", "id": "cj901xctb00063i6tnyhagqht"},
+      "target": {"type": "activity", "id": "cj901u24b00023i6tptd0iy8i"}
+    },
+    {
+      "_id": "cj901xrzg00093i6thyk4gcgn",
+      "source": {"type": "operator", "id": "cj901xqty00083i6tf0o4grnn"},
+      "target": {"type": "activity", "id": "cj901vw6v00033i6t6eat9c6a"}
+    },
+    {
+      "_id": "cj901xt5n000a3i6t4ddzl8oe",
+      "source": {"type": "operator", "id": "cj901xqty00083i6tf0o4grnn"},
+      "target": {"type": "activity", "id": "cj901tii400013i6twz1firyq"}
+    },
+    {
+      "_id": "cj9023aok000d3i6tgv5aill1",
+      "source": {"type": "operator", "id": "cj901wli000043i6ttk0mz83f"},
+      "target": {"type": "activity", "id": "cj901ytbn000b3i6tpz9y6nre"}
+    },
+    {
+      "_id": "cj9028s5b000i3i6t4culwx6c",
+      "source": {"type": "activity", "id": "cj901u24b00023i6tptd0iy8i"},
+      "target": {"type": "operator", "id": "cj9028qi3000h3i6tcoger1h0"}
+    },
+    {
+      "_id": "cj9028v2u000k3i6t5cz6sust",
+      "source": {"type": "operator", "id": "cj9028ncp000g3i6tofxulh6x"},
+      "target": {"type": "activity", "id": "cj901ytbn000b3i6tpz9y6nre"}
+    },
+    {
+      "_id": "cj9028yev000l3i6tlv1ivhx2",
+      "source": {"type": "operator", "id": "cj9028qi3000h3i6tcoger1h0"},
+      "target": {"type": "activity", "id": "cj9027yp6000f3i6ttwtkjhtm"}
+    },
+    {
+      "_id": "cj9029dsc000m3i6tixiwyt91",
+      "source": {"type": "operator", "id": "cj901wli000043i6ttk0mz83f"},
+      "target": {"type": "operator", "id": "cj9028ncp000g3i6tofxulh6x"}
+    },
+    {
+      "_id": "cj902ban2000n3i6tqgv394l6",
+      "source": {"type": "operator", "id": "cj901xctb00063i6tnyhagqht"},
+      "target": {"type": "activity", "id": "cj9027yp6000f3i6ttwtkjhtm"}
+    },
+    {
+      "_id": "cj902bkrd000o3i6tf0pvwjcz",
+      "source": {"type": "operator", "id": "cj901xqty00083i6tf0o4grnn"},
+      "target": {"type": "activity", "id": "cj901ytbn000b3i6tpz9y6nre"}
+    },
+    {
+      "_id": "cj902bo7k000p3i6td5j01wfe",
+      "source": {"type": "operator", "id": "cj901xqty00083i6tf0o4grnn"},
+      "target": {"type": "activity", "id": "cj9021fwz000c3i6tc484we6x"}
+    },
+    {
+      "_id": "cj9075bwz00013i6tm0vzrtra",
+      "source": {"type": "activity", "id": "cj901u24b00023i6tptd0iy8i"},
+      "target": {"type": "operator", "id": "cj9074vhg00003i6twyjkk4bi"}
+    },
+    {
+      "_id": "cj9075dpg00023i6tef6hzxlo",
+      "source": {"type": "operator", "id": "cj9074vhg00003i6twyjkk4bi"},
+      "target": {"type": "operator", "id": "cj9028ncp000g3i6tofxulh6x"}
+    }
+  ]
+}
