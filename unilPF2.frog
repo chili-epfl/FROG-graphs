@@ -1,24 +1,29 @@
 {
   "graph": {
-    "_id": "cj901tf0p00003i6tufifa2fa",
+    "_id": "cj9444h320001326toevtsfbd",
     "name": "unilPF2",
-    "createdAt": "2017-10-20T15:26:50.955Z",
+    "createdAt": "2017-10-23T11:42:30.782Z",
     "duration": 120,
     "broken": false
   },
   "activities": [
     {
-      "_id": "cj901tii400013i6twz1firyq",
+      "_id": "cj9444h340002326tuv6eugyt",
       "title": "Upload Images",
       "startTime": 0,
       "length": 5,
       "plane": 1,
       "activityType": "ac-image",
-      "data": {"canUpload": true, "images": []},
-      "streamTarget": "cj901u24b00023i6tptd0iy8i"
+      "data": {
+        "guidelines": "Téléchargez des images de vos représentations. Pour chaque image commentez votre réflexion et votre conclusion. Les images que vous téléchargez seront classifiées, puis distribuées à d'autres groupes pour l'activité suivante.",
+        "canUpload": true,
+        "canComment": true,
+        "images": []
+      },
+      "streamTarget": "cj9444h340003326tzz9i3n7y"
     },
     {
-      "_id": "cj901u24b00023i6tptd0iy8i",
+      "_id": "cj9444h340003326tzz9i3n7y",
       "title": "Classifier",
       "startTime": 0,
       "length": 10,
@@ -31,7 +36,7 @@
       }
     },
     {
-      "_id": "cj901vw6v00033i6t6eat9c6a",
+      "_id": "cj9444h340004326the147xkx",
       "title": "Create groups",
       "startTime": 5,
       "length": 5,
@@ -39,13 +44,14 @@
       "activityType": "ac-prox"
     },
     {
-      "_id": "cj901ytbn000b3i6tpz9y6nre",
+      "_id": "cj9444h340005326twm60rqtg",
       "title": "Commenting Solutions",
       "startTime": 10,
       "length": 10,
       "plane": 2,
       "activityType": "ac-image",
       "data": {
+        "guidelines": "Commentez les représentations proposées par d'autres groupes.",
         "canVote": false,
         "canUpload": false,
         "canComment": true,
@@ -56,29 +62,43 @@
       "groupingKey": "group"
     },
     {
-      "_id": "cj9021fwz000c3i6tc484we6x",
+      "_id": "cj9444h340006326tbdt79f01",
       "title": "Post Test",
       "startTime": 25,
       "length": 10,
       "plane": 1,
       "activityType": "ac-quiz",
       "data": {
-        "title": "Super Quiz",
-        "guidelines": "Answer the super question pliz",
+        "title": "Stat 101",
+        "guidelines": "Ce Quizz est anonyme, pas noté et ne compte donc en aucun cas pour la note à l'examen final. Une seule réponse est correcte par question. Si vous ne connaissez pas la réponse, répondez NA.",
         "questions": [
           {
             "answers": [
-              "$e^{i \\pi} + 1 = 0$",
-              "$\\sum_{k>0} \\frac{1}{k^2} = \\frac{\\pi^2}{6}$",
-              "$1+1=2$"
+              "$2/15$",
+              "$4/15$",
+              "$6/15$",
+              "$2/35$",
+              "$4/35$",
+              "$6/35$",
+              "NA"
             ],
-            "question": "Which of this equation is the prettiest?"
+            "question": "A la sortie d'une chaine de production d'une usine, les articles pro- duits ont tous la même probabilité de présenter un défaut. 15 articles choisis au hasard sont contrôlés par le groupe de qualité de l'usine: 2 articles sont destinés au client A, 8 au client B et 5 au client C. Il s'avère que 4 articles présentent un défaut. Quelle est la probabilité que tous les articles destinés au client A présentent un défaut ?"
+          },
+          {
+            "question": "On sait que la probabilité d'avoir un accident lors d'un trajet sur la route reliant Lausanne à Vevey est égale à 0.01%. On sait également que, sur ce trajet, la probabilité d'avoir un accident est deux fois plus élevée lorsque qu'il pleut que lorsqu'il ne pleut pas. On sait enfin qu'il pleut 20% du temps sur ce tronçon routier. Quelle est la probabilité d'avoir un accident lorsqu'il pleut sur la route reliant Lausanne à Vevey?",
+            "answers": [
+              "$0.02 \\%$",
+              "$0.01\\bar{6} \\%$",
+              "$0.008\\bar{3} \\%$",
+              "$0.01\\bar{3} \\%$",
+              "NA"
+            ]
           }
         ]
       }
     },
     {
-      "_id": "cj9027yp6000f3i6ttwtkjhtm",
+      "_id": "cj9444h340007326txijw0gso",
       "title": "Briefing",
       "startTime": 20,
       "length": 5,
@@ -89,7 +109,7 @@
   ],
   "operators": [
     {
-      "_id": "cj901wli000043i6ttk0mz83f",
+      "_id": "cj9444h350008326t9c0xk8q2",
       "time": 9.935527982232347,
       "y": 184,
       "type": "social",
@@ -97,7 +117,7 @@
       "title": "Operator Proximity"
     },
     {
-      "_id": "cj901xctb00063i6tnyhagqht",
+      "_id": "cj9444h350009326tip1q1v8t",
       "time": -0.07695343330702359,
       "y": -2,
       "type": "control",
@@ -110,7 +130,7 @@
       }
     },
     {
-      "_id": "cj901xqty00083i6tf0o4grnn",
+      "_id": "cj9444h37000a326tkawrivd2",
       "time": -0.0693819863805733,
       "y": 38,
       "type": "control",
@@ -123,7 +143,7 @@
       }
     },
     {
-      "_id": "cj9028ncp000g3i6tofxulh6x",
+      "_id": "cj9444h37000b326twl9vcjrh",
       "time": 7.21153131733414,
       "y": 259,
       "type": "product",
@@ -132,7 +152,7 @@
       "title": "Distribute Categorized"
     },
     {
-      "_id": "cj9028qi3000h3i6tcoger1h0",
+      "_id": "cj9444h38000c326t67b3euv0",
       "time": 15.722591362126263,
       "y": 120,
       "type": "product",
@@ -140,7 +160,7 @@
       "data": {"field": "selected", "removeUndefined": true}
     },
     {
-      "_id": "cj9074vhg00003i6twyjkk4bi",
+      "_id": "cj9444h38000d326tlip0sgps",
       "time": 4.116583423872357,
       "y": 258,
       "type": "product",
@@ -155,74 +175,74 @@
   ],
   "connections": [
     {
-      "_id": "cj901wqp500053i6tzr52q1rq",
-      "source": {"type": "activity", "id": "cj901vw6v00033i6t6eat9c6a"},
-      "target": {"type": "operator", "id": "cj901wli000043i6ttk0mz83f"}
+      "_id": "cj9444h38000e326t6ai0lg00",
+      "source": {"type": "activity", "id": "cj9444h340004326the147xkx"},
+      "target": {"type": "operator", "id": "cj9444h350008326t9c0xk8q2"}
     },
     {
-      "_id": "cj901xdrw00073i6taupx6hsi",
-      "source": {"type": "operator", "id": "cj901xctb00063i6tnyhagqht"},
-      "target": {"type": "activity", "id": "cj901u24b00023i6tptd0iy8i"}
+      "_id": "cj9444h38000f326t9ft9tkjn",
+      "source": {"type": "operator", "id": "cj9444h350009326tip1q1v8t"},
+      "target": {"type": "activity", "id": "cj9444h340003326tzz9i3n7y"}
     },
     {
-      "_id": "cj901xrzg00093i6thyk4gcgn",
-      "source": {"type": "operator", "id": "cj901xqty00083i6tf0o4grnn"},
-      "target": {"type": "activity", "id": "cj901vw6v00033i6t6eat9c6a"}
+      "_id": "cj9444h38000g326t0uekygew",
+      "source": {"type": "operator", "id": "cj9444h37000a326tkawrivd2"},
+      "target": {"type": "activity", "id": "cj9444h340004326the147xkx"}
     },
     {
-      "_id": "cj901xt5n000a3i6t4ddzl8oe",
-      "source": {"type": "operator", "id": "cj901xqty00083i6tf0o4grnn"},
-      "target": {"type": "activity", "id": "cj901tii400013i6twz1firyq"}
+      "_id": "cj9444h38000h326t0a15nwxj",
+      "source": {"type": "operator", "id": "cj9444h37000a326tkawrivd2"},
+      "target": {"type": "activity", "id": "cj9444h340002326tuv6eugyt"}
     },
     {
-      "_id": "cj9023aok000d3i6tgv5aill1",
-      "source": {"type": "operator", "id": "cj901wli000043i6ttk0mz83f"},
-      "target": {"type": "activity", "id": "cj901ytbn000b3i6tpz9y6nre"}
+      "_id": "cj9444h38000i326tq1h1k8in",
+      "source": {"type": "operator", "id": "cj9444h350008326t9c0xk8q2"},
+      "target": {"type": "activity", "id": "cj9444h340005326twm60rqtg"}
     },
     {
-      "_id": "cj9028s5b000i3i6t4culwx6c",
-      "source": {"type": "activity", "id": "cj901u24b00023i6tptd0iy8i"},
-      "target": {"type": "operator", "id": "cj9028qi3000h3i6tcoger1h0"}
+      "_id": "cj9444h38000j326t4qzci4vw",
+      "source": {"type": "activity", "id": "cj9444h340003326tzz9i3n7y"},
+      "target": {"type": "operator", "id": "cj9444h38000c326t67b3euv0"}
     },
     {
-      "_id": "cj9028v2u000k3i6t5cz6sust",
-      "source": {"type": "operator", "id": "cj9028ncp000g3i6tofxulh6x"},
-      "target": {"type": "activity", "id": "cj901ytbn000b3i6tpz9y6nre"}
+      "_id": "cj9444h38000k326tn8lij0ye",
+      "source": {"type": "operator", "id": "cj9444h37000b326twl9vcjrh"},
+      "target": {"type": "activity", "id": "cj9444h340005326twm60rqtg"}
     },
     {
-      "_id": "cj9028yev000l3i6tlv1ivhx2",
-      "source": {"type": "operator", "id": "cj9028qi3000h3i6tcoger1h0"},
-      "target": {"type": "activity", "id": "cj9027yp6000f3i6ttwtkjhtm"}
+      "_id": "cj9444h38000l326tbhsrey4p",
+      "source": {"type": "operator", "id": "cj9444h38000c326t67b3euv0"},
+      "target": {"type": "activity", "id": "cj9444h340007326txijw0gso"}
     },
     {
-      "_id": "cj9029dsc000m3i6tixiwyt91",
-      "source": {"type": "operator", "id": "cj901wli000043i6ttk0mz83f"},
-      "target": {"type": "operator", "id": "cj9028ncp000g3i6tofxulh6x"}
+      "_id": "cj9444h38000m326ty6eopn1m",
+      "source": {"type": "operator", "id": "cj9444h350008326t9c0xk8q2"},
+      "target": {"type": "operator", "id": "cj9444h37000b326twl9vcjrh"}
     },
     {
-      "_id": "cj902ban2000n3i6tqgv394l6",
-      "source": {"type": "operator", "id": "cj901xctb00063i6tnyhagqht"},
-      "target": {"type": "activity", "id": "cj9027yp6000f3i6ttwtkjhtm"}
+      "_id": "cj9444h39000n326tyumbqihh",
+      "source": {"type": "operator", "id": "cj9444h350009326tip1q1v8t"},
+      "target": {"type": "activity", "id": "cj9444h340007326txijw0gso"}
     },
     {
-      "_id": "cj902bkrd000o3i6tf0pvwjcz",
-      "source": {"type": "operator", "id": "cj901xqty00083i6tf0o4grnn"},
-      "target": {"type": "activity", "id": "cj901ytbn000b3i6tpz9y6nre"}
+      "_id": "cj9444h39000o326tj879bh8l",
+      "source": {"type": "operator", "id": "cj9444h37000a326tkawrivd2"},
+      "target": {"type": "activity", "id": "cj9444h340005326twm60rqtg"}
     },
     {
-      "_id": "cj902bo7k000p3i6td5j01wfe",
-      "source": {"type": "operator", "id": "cj901xqty00083i6tf0o4grnn"},
-      "target": {"type": "activity", "id": "cj9021fwz000c3i6tc484we6x"}
+      "_id": "cj9444h39000p326t0xkvof5l",
+      "source": {"type": "operator", "id": "cj9444h37000a326tkawrivd2"},
+      "target": {"type": "activity", "id": "cj9444h340006326tbdt79f01"}
     },
     {
-      "_id": "cj9075bwz00013i6tm0vzrtra",
-      "source": {"type": "activity", "id": "cj901u24b00023i6tptd0iy8i"},
-      "target": {"type": "operator", "id": "cj9074vhg00003i6twyjkk4bi"}
+      "_id": "cj9444h39000q326thgr5jpos",
+      "source": {"type": "activity", "id": "cj9444h340003326tzz9i3n7y"},
+      "target": {"type": "operator", "id": "cj9444h38000d326tlip0sgps"}
     },
     {
-      "_id": "cj9075dpg00023i6tef6hzxlo",
-      "source": {"type": "operator", "id": "cj9074vhg00003i6twyjkk4bi"},
-      "target": {"type": "operator", "id": "cj9028ncp000g3i6tofxulh6x"}
+      "_id": "cj9444h39000r326tse73dvqv",
+      "source": {"type": "operator", "id": "cj9444h38000d326tlip0sgps"},
+      "target": {"type": "operator", "id": "cj9444h37000b326twl9vcjrh"}
     }
   ]
 }
