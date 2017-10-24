@@ -1,31 +1,32 @@
 {
   "graph": {
-    "_id": "cj9444h320001326toevtsfbd",
+    "_id": "cj9494plf00003i6w5s9mck06",
     "name": "unilPF2",
-    "createdAt": "2017-10-23T11:42:30.782Z",
-    "duration": 120,
+    "createdAt": "2017-10-23T14:02:39.893Z",
+    "duration": 40,
     "broken": false
   },
   "activities": [
     {
-      "_id": "cj9444h340002326tuv6eugyt",
+      "_id": "cj9494pli00013i6wq1g953ee",
       "title": "Upload Images",
-      "startTime": 0,
+      "startTime": 1,
       "length": 5,
       "plane": 1,
       "activityType": "ac-image",
       "data": {
-        "guidelines": "Téléchargez des images de vos représentations. Pour chaque image commentez votre réflexion et votre conclusion. Les images que vous téléchargez seront classifiées, puis distribuées à d'autres groupes pour l'activité suivante.",
+        "guidelines": "Téléchargez des images de vos représentations. Pour chaque image, commentez votre réflexion et votre conclusion en expliquant comment votre représentation vous a aidé à résoudre le problème. Pour ce faire, cliquez sur l’image et écrivez dans le champ de texte. Les images que vous téléchargez seront classifiées, puis distribuées à d'autres groupes pour l'activité suivante.",
         "canUpload": true,
         "canComment": true,
+        "commentGuidelines": "Veuillez commenter cette représentation",
         "images": []
       },
-      "streamTarget": "cj9444h340003326tzz9i3n7y"
+      "streamTarget": "cj9494pli00023i6wwlac2hhu"
     },
     {
-      "_id": "cj9444h340003326tzz9i3n7y",
+      "_id": "cj9494pli00023i6wwlac2hhu",
       "title": "Classifier",
-      "startTime": 0,
+      "startTime": 1,
       "length": 10,
       "plane": 3,
       "activityType": "ac-classifier",
@@ -36,25 +37,27 @@
       }
     },
     {
-      "_id": "cj9444h340004326the147xkx",
+      "_id": "cj9494pli00033i6wbpsxrd6b",
       "title": "Create groups",
-      "startTime": 5,
+      "startTime": 6,
       "length": 5,
       "plane": 3,
-      "activityType": "ac-prox"
+      "activityType": "ac-prox",
+      "streamTarget": "undefined"
     },
     {
-      "_id": "cj9444h340005326twm60rqtg",
+      "_id": "cj9494pli00043i6wjn29dygm",
       "title": "Commenting Solutions",
-      "startTime": 10,
-      "length": 10,
+      "startTime": 11,
+      "length": 9,
       "plane": 2,
       "activityType": "ac-image",
       "data": {
-        "guidelines": "Commentez les représentations proposées par d'autres groupes.",
+        "guidelines": "Ces images ont été tirées aléatoirement des représentations générées par les autres groupes. Elles peuvent représenter un raisonnement correct ou incorrect. Choisissez-en une et commentez son utilité ou ses erreurs dans le champ de texte.",
         "canVote": false,
         "canUpload": false,
         "canComment": true,
+        "commentGuidelines": "Veuillez commenter cette représentation",
         "hideCategory": true,
         "images": [],
         "minVote": 1
@@ -62,7 +65,7 @@
       "groupingKey": "group"
     },
     {
-      "_id": "cj9444h340006326tbdt79f01",
+      "_id": "cj9494pli00053i6w9r3jp4lb",
       "title": "Post Test",
       "startTime": 25,
       "length": 10,
@@ -98,18 +101,53 @@
       }
     },
     {
-      "_id": "cj9444h340007326txijw0gso",
+      "_id": "cj9494pli00063i6whvcgijj8",
       "title": "Briefing",
       "startTime": 20,
       "length": 5,
       "plane": 3,
       "activityType": "ac-image",
       "data": {"images": [{"categories": []}]}
+    },
+    {
+      "_id": "cj952sfw200003i6wnn6qny9f",
+      "title": "Text",
+      "startTime": 0,
+      "length": 1,
+      "plane": 3,
+      "activityType": "ac-text",
+      "data": {"title": "Cette activité va bientôt commencer"}
+    },
+    {
+      "_id": "cj952wzfm00023i6wvx0e3ov2",
+      "title": "Highlighting",
+      "startTime": 11,
+      "length": 9,
+      "plane": 3,
+      "activityType": "ac-classifier",
+      "data": {
+        "title": "Selecting images to bookmark",
+        "images": [],
+        "categories": []
+      }
+    },
+    {
+      "_id": "cj95egzax00013i6wdspviefe",
+      "title": "Upload photo",
+      "startTime": 25,
+      "length": 10,
+      "plane": 1,
+      "activityType": "ac-image",
+      "data": {
+        "guidelines": "Vous pouvez télécharger une photo de vos notes pour le quiz",
+        "canUpload": true,
+        "images": [{"categories": []}]
+      }
     }
   ],
   "operators": [
     {
-      "_id": "cj9444h350008326t9c0xk8q2",
+      "_id": "cj9494pli00073i6wfpinvqmk",
       "time": 9.935527982232347,
       "y": 184,
       "type": "social",
@@ -117,7 +155,7 @@
       "title": "Operator Proximity"
     },
     {
-      "_id": "cj9444h350009326tip1q1v8t",
+      "_id": "cj9494pli00083i6wjc5s9jni",
       "time": -0.07695343330702359,
       "y": -2,
       "type": "control",
@@ -125,12 +163,12 @@
       "data": {
         "applytoall": true,
         "includeexclude": "include",
-        "individuals": "kshitij",
+        "individuals": "kshitij,Kshitij Kshitij,stian,Olivier Gallay",
         "rules": [{"includeexclude": "include"}]
       }
     },
     {
-      "_id": "cj9444h37000a326tkawrivd2",
+      "_id": "cj9494plj00093i6wn751kza1",
       "time": -0.0693819863805733,
       "y": 38,
       "type": "control",
@@ -138,12 +176,12 @@
       "data": {
         "applytoall": true,
         "includeexclude": "exclude",
-        "individuals": "kshitij",
+        "individuals": "kshitij,Kshitij Kshitij,stian,Olivier Gallay",
         "rules": [{"includeexclude": "include"}]
       }
     },
     {
-      "_id": "cj9444h37000b326twl9vcjrh",
+      "_id": "cj9494plj000a3i6w4gl9iyph",
       "time": 7.21153131733414,
       "y": 259,
       "type": "product",
@@ -152,15 +190,15 @@
       "title": "Distribute Categorized"
     },
     {
-      "_id": "cj9444h38000c326t67b3euv0",
-      "time": 15.722591362126263,
-      "y": 120,
+      "_id": "cj9494plj000b3i6w4zyxmd4k",
+      "time": 20.51875443167063,
+      "y": 23,
       "type": "product",
       "operatorType": "op-filter",
       "data": {"field": "selected", "removeUndefined": true}
     },
     {
-      "_id": "cj9444h38000d326tlip0sgps",
+      "_id": "cj9494plj000c3i6wk729tcma",
       "time": 4.116583423872357,
       "y": 258,
       "type": "product",
@@ -175,74 +213,84 @@
   ],
   "connections": [
     {
-      "_id": "cj9444h38000e326t6ai0lg00",
-      "source": {"type": "activity", "id": "cj9444h340004326the147xkx"},
-      "target": {"type": "operator", "id": "cj9444h350008326t9c0xk8q2"}
+      "_id": "cj9494plk000d3i6wftadnxgi",
+      "source": {"type": "activity", "id": "cj9494pli00033i6wbpsxrd6b"},
+      "target": {"type": "operator", "id": "cj9494pli00073i6wfpinvqmk"}
     },
     {
-      "_id": "cj9444h38000f326t9ft9tkjn",
-      "source": {"type": "operator", "id": "cj9444h350009326tip1q1v8t"},
-      "target": {"type": "activity", "id": "cj9444h340003326tzz9i3n7y"}
+      "_id": "cj9494plk000e3i6wx640ut91",
+      "source": {"type": "operator", "id": "cj9494pli00083i6wjc5s9jni"},
+      "target": {"type": "activity", "id": "cj9494pli00023i6wwlac2hhu"}
     },
     {
-      "_id": "cj9444h38000g326t0uekygew",
-      "source": {"type": "operator", "id": "cj9444h37000a326tkawrivd2"},
-      "target": {"type": "activity", "id": "cj9444h340004326the147xkx"}
+      "_id": "cj9494plk000f3i6w65jjhat4",
+      "source": {"type": "operator", "id": "cj9494plj00093i6wn751kza1"},
+      "target": {"type": "activity", "id": "cj9494pli00033i6wbpsxrd6b"}
     },
     {
-      "_id": "cj9444h38000h326t0a15nwxj",
-      "source": {"type": "operator", "id": "cj9444h37000a326tkawrivd2"},
-      "target": {"type": "activity", "id": "cj9444h340002326tuv6eugyt"}
+      "_id": "cj9494plk000g3i6wbtmujj0x",
+      "source": {"type": "operator", "id": "cj9494plj00093i6wn751kza1"},
+      "target": {"type": "activity", "id": "cj9494pli00013i6wq1g953ee"}
     },
     {
-      "_id": "cj9444h38000i326tq1h1k8in",
-      "source": {"type": "operator", "id": "cj9444h350008326t9c0xk8q2"},
-      "target": {"type": "activity", "id": "cj9444h340005326twm60rqtg"}
+      "_id": "cj9494plk000h3i6wlvbkg3pj",
+      "source": {"type": "operator", "id": "cj9494pli00073i6wfpinvqmk"},
+      "target": {"type": "activity", "id": "cj9494pli00043i6wjn29dygm"}
     },
     {
-      "_id": "cj9444h38000j326t4qzci4vw",
-      "source": {"type": "activity", "id": "cj9444h340003326tzz9i3n7y"},
-      "target": {"type": "operator", "id": "cj9444h38000c326t67b3euv0"}
+      "_id": "cj9494plk000j3i6w8hu5r6aj",
+      "source": {"type": "operator", "id": "cj9494plj000a3i6w4gl9iyph"},
+      "target": {"type": "activity", "id": "cj9494pli00043i6wjn29dygm"}
     },
     {
-      "_id": "cj9444h38000k326tn8lij0ye",
-      "source": {"type": "operator", "id": "cj9444h37000b326twl9vcjrh"},
-      "target": {"type": "activity", "id": "cj9444h340005326twm60rqtg"}
+      "_id": "cj9494plk000k3i6wt7vzra34",
+      "source": {"type": "operator", "id": "cj9494plj000b3i6w4zyxmd4k"},
+      "target": {"type": "activity", "id": "cj9494pli00063i6whvcgijj8"}
     },
     {
-      "_id": "cj9444h38000l326tbhsrey4p",
-      "source": {"type": "operator", "id": "cj9444h38000c326t67b3euv0"},
-      "target": {"type": "activity", "id": "cj9444h340007326txijw0gso"}
+      "_id": "cj9494plk000l3i6wu4aurtyl",
+      "source": {"type": "operator", "id": "cj9494pli00073i6wfpinvqmk"},
+      "target": {"type": "operator", "id": "cj9494plj000a3i6w4gl9iyph"}
     },
     {
-      "_id": "cj9444h38000m326ty6eopn1m",
-      "source": {"type": "operator", "id": "cj9444h350008326t9c0xk8q2"},
-      "target": {"type": "operator", "id": "cj9444h37000b326twl9vcjrh"}
+      "_id": "cj9494plk000m3i6wzq03vy5z",
+      "source": {"type": "operator", "id": "cj9494pli00083i6wjc5s9jni"},
+      "target": {"type": "activity", "id": "cj9494pli00063i6whvcgijj8"}
     },
     {
-      "_id": "cj9444h39000n326tyumbqihh",
-      "source": {"type": "operator", "id": "cj9444h350009326tip1q1v8t"},
-      "target": {"type": "activity", "id": "cj9444h340007326txijw0gso"}
+      "_id": "cj9494plk000n3i6wbm3vg21k",
+      "source": {"type": "operator", "id": "cj9494plj00093i6wn751kza1"},
+      "target": {"type": "activity", "id": "cj9494pli00043i6wjn29dygm"}
     },
     {
-      "_id": "cj9444h39000o326tj879bh8l",
-      "source": {"type": "operator", "id": "cj9444h37000a326tkawrivd2"},
-      "target": {"type": "activity", "id": "cj9444h340005326twm60rqtg"}
+      "_id": "cj9494plk000o3i6ww2t3cg8s",
+      "source": {"type": "operator", "id": "cj9494plj00093i6wn751kza1"},
+      "target": {"type": "activity", "id": "cj9494pli00053i6w9r3jp4lb"}
     },
     {
-      "_id": "cj9444h39000p326t0xkvof5l",
-      "source": {"type": "operator", "id": "cj9444h37000a326tkawrivd2"},
-      "target": {"type": "activity", "id": "cj9444h340006326tbdt79f01"}
+      "_id": "cj9494plk000p3i6w4ljradf1",
+      "source": {"type": "activity", "id": "cj9494pli00023i6wwlac2hhu"},
+      "target": {"type": "operator", "id": "cj9494plj000c3i6wk729tcma"}
     },
     {
-      "_id": "cj9444h39000q326thgr5jpos",
-      "source": {"type": "activity", "id": "cj9444h340003326tzz9i3n7y"},
-      "target": {"type": "operator", "id": "cj9444h38000d326tlip0sgps"}
+      "_id": "cj9494plk000q3i6wggse9mwt",
+      "source": {"type": "operator", "id": "cj9494plj000c3i6wk729tcma"},
+      "target": {"type": "operator", "id": "cj9494plj000a3i6w4gl9iyph"}
     },
     {
-      "_id": "cj9444h39000r326tse73dvqv",
-      "source": {"type": "operator", "id": "cj9444h38000d326tlip0sgps"},
-      "target": {"type": "operator", "id": "cj9444h37000b326twl9vcjrh"}
+      "_id": "cj952xaj900033i6w4ddjzqm5",
+      "source": {"type": "activity", "id": "cj9494pli00023i6wwlac2hhu"},
+      "target": {"type": "activity", "id": "cj952wzfm00023i6wvx0e3ov2"}
+    },
+    {
+      "_id": "cj952y3ts00043i6w9c6hp6q9",
+      "source": {"type": "activity", "id": "cj952wzfm00023i6wvx0e3ov2"},
+      "target": {"type": "operator", "id": "cj9494plj000b3i6w4zyxmd4k"}
+    },
+    {
+      "_id": "cj952y7ly00053i6wyu5l2tkf",
+      "source": {"type": "operator", "id": "cj9494pli00083i6wjc5s9jni"},
+      "target": {"type": "activity", "id": "cj952wzfm00023i6wvx0e3ov2"}
     }
   ]
 }
