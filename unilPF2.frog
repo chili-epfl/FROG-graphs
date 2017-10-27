@@ -46,25 +46,6 @@
       "streamTarget": "undefined"
     },
     {
-      "_id": "cj9494pli00043i6wjn29dygm",
-      "title": "Commenting Solutions",
-      "startTime": 11,
-      "length": 9,
-      "plane": 2,
-      "activityType": "ac-image",
-      "data": {
-        "guidelines": "Ces images ont été tirées aléatoirement des représentations générées par les autres groupes. Elles peuvent représenter un raisonnement correct ou incorrect. Choisissez-en une et commentez son utilité ou ses erreurs dans le champ de texte.",
-        "canVote": false,
-        "canUpload": false,
-        "canComment": true,
-        "commentGuidelines": "Veuillez commenter cette représentation",
-        "hideCategory": true,
-        "images": [],
-        "minVote": 1
-      },
-      "groupingKey": "group"
-    },
-    {
       "_id": "cj9494pli00053i6w9r3jp4lb",
       "title": "Post Test",
       "startTime": 25,
@@ -110,6 +91,19 @@
       "data": {"images": [{"categories": []}]}
     },
     {
+      "_id": "cj95egzax00013i6wdspviefe",
+      "title": "Upload photo",
+      "startTime": 25,
+      "length": 10,
+      "plane": 1,
+      "activityType": "ac-image",
+      "data": {
+        "guidelines": "Vous pouvez télécharger une photo de vos notes pour le quiz",
+        "canUpload": true,
+        "images": [{"categories": []}]
+      }
+    },
+    {
       "_id": "cj952sfw200003i6wnn6qny9f",
       "title": "Text",
       "startTime": 0,
@@ -132,17 +126,23 @@
       }
     },
     {
-      "_id": "cj95egzax00013i6wdspviefe",
-      "title": "Upload photo",
-      "startTime": 25,
-      "length": 10,
-      "plane": 1,
+      "_id": "cj9494pli00043i6wjn29dygm",
+      "title": "Commenting Solutions",
+      "startTime": 11,
+      "length": 9,
+      "plane": 2,
       "activityType": "ac-image",
       "data": {
-        "guidelines": "Vous pouvez télécharger une photo de vos notes pour le quiz",
-        "canUpload": true,
-        "images": [{"categories": []}]
-      }
+        "guidelines": "Ces images ont été tirées aléatoirement des représentations générées par les autres groupes. Elles peuvent représenter un raisonnement correct ou incorrect. Choisissez-en une et commentez son utilité ou ses erreurs dans le champ de texte.",
+        "canVote": false,
+        "canUpload": false,
+        "canComment": true,
+        "commentGuidelines": "Veuillez commenter cette représentation",
+        "hideCategory": true,
+        "images": [],
+        "minVote": 1
+      },
+      "groupingKey": "group"
     }
   ],
   "operators": [
