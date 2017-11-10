@@ -1,0 +1,198 @@
+{
+  "graph": {
+    "_id": "cj9sfplar00003i6wolrhvqut",
+    "name": "Poisson",
+    "createdAt": "2017-11-09T12:13:20.022Z",
+    "duration": 35,
+    "broken": false
+  },
+  "activities": [
+    {
+      "_id": "cj9shd4a200003i6w85amr1nx",
+      "title": "Solution proposée",
+      "startTime": 0,
+      "length": 5,
+      "plane": 1,
+      "activityType": "ac-textarea",
+      "data": {"title": "Solution proposée", "placeholder": "Ecrivez ici"}
+    },
+    {
+      "_id": "cj9shdbzv00013i6w8tm8pysf",
+      "title": "Solution proposée II",
+      "startTime": 5,
+      "length": 5,
+      "plane": 1,
+      "activityType": "ac-textarea",
+      "createdAt": "2017-11-09T12:59:47.323Z",
+      "data": {"title": "Solution proposée", "placeholder": "Ecrivez ici"}
+    },
+    {
+      "_id": "cj9sjuzrr00003i6wxsbbo9qv",
+      "title": "Instructions",
+      "startTime": 0,
+      "length": 10,
+      "plane": 1,
+      "activityType": "ac-text",
+      "data": {
+        "title": "Énoncé",
+        "text": "Un ami voudrait distribuer des flyers concernant une journée sportive à l’Université qui aura lieu dans quelques mois. Afin de mieux préparer sa distribution de flyers devant le Centre sportif, il vous demande d’estimer au mieux le nombre de personnes qui entrent dans le Centre Sportif le mardi entre 17h et 19h. Imaginez un scénario (en 100 mots maximum) qui per- mette d’estimer ce nombre. Votre scénario doit être simple et doit ignorer tous facteurs explicatifs externes tels que la météo, les cours et le nombre de cours donnés dans le Centre, la possibilité de se renseigner sur les activités du Centre, le nombre de voitures garées sur le parking devant le centre, etc. On exclue également la possibilité de contacter quiconque et d’utiliser un sup- port video tel que la caméra. Raisonnez simplement. La mise en pratique de votre scénario imaginé doit prendre environs 10 heures de temps."
+      }
+    },
+    {
+      "_id": "cj9sjvmh500033i6wbhd2mymv",
+      "title": "Star text to debrief",
+      "startTime": 5,
+      "length": 8,
+      "plane": 3,
+      "activityType": "ac-classifier",
+      "data": {"title": "Select text pieces for debriefing"}
+    },
+    {
+      "_id": "cj9sk0749000e3i6wzknx3dcb",
+      "title": "Post-test",
+      "startTime": 18,
+      "length": 4,
+      "plane": 1,
+      "activityType": "ac-quiz",
+      "data": {
+        "title": "Quiz",
+        "questions": [{"question": "Question 1", "answers": ["a", "b"]}]
+      }
+    },
+    {
+      "_id": "cj9sk3igu00003i6wph3o13am",
+      "title": "Coffee break",
+      "startTime": 10,
+      "length": 3,
+      "plane": 3,
+      "activityType": "ac-text",
+      "data": {"title": "Coffee break "}
+    },
+    {
+      "_id": "cj9thqiac00023i6wngabtafb",
+      "title": "Debrief",
+      "startTime": 13,
+      "length": 5,
+      "plane": 3,
+      "activityType": "ac-classifier",
+      "data": {}
+    }
+  ],
+  "operators": [
+    {
+      "_id": "cj9sh51tl00003i6w0k7fnhhy",
+      "time": 4.54983922829582,
+      "y": 100,
+      "type": "product",
+      "operatorType": "op-check-concepts",
+      "data": {
+        "concepts": [
+          {
+            "keyword": "compte*, nombre, comptage*, dénombrage, nombre de personnes, nombre d’arrivées, nombre d’entrée",
+            "prompt": "Est-ce que vous avez pensé à compter?"
+          },
+          {
+            "keyword": "estimation*, moyenne, médiane, prédiction*",
+            "prompt": "Est-ce que vous avez pensé à estimer?"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "cj9sjx81400063i6wr3fymdgj",
+      "time": 1.2298682284041,
+      "y": 25,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "individuals": "kshitij,Kshitij Kshitij"
+      }
+    },
+    {
+      "_id": "cj9sjxmtk00083i6w2lbk1iys",
+      "time": 5.800595634233994,
+      "y": 499,
+      "type": "control",
+      "operatorType": "op-control-group",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "exclude",
+        "individuals": "kshitij,Kshitij Kshiitj"
+      }
+    },
+    {
+      "_id": "cj9smb7yn00003i6wexrikkdw",
+      "time": 1.3504823151125398,
+      "y": 127,
+      "type": "product",
+      "operatorType": "op-aggregate"
+    },
+    {
+      "_id": "cj9thqwrp00033i6wj9c940vv",
+      "time": 14.660804020100501,
+      "y": 72,
+      "type": "product",
+      "operatorType": "op-filter",
+      "data": {"field": "selected"}
+    }
+  ],
+  "connections": [
+    {
+      "_id": "cj9shmvms00003i6wnpko6o8n",
+      "source": {"type": "activity", "id": "cj9shd4a200003i6w85amr1nx"},
+      "target": {"type": "operator", "id": "cj9sh51tl00003i6w0k7fnhhy"}
+    },
+    {
+      "_id": "cj9shmwar00013i6w9y1l22zp",
+      "source": {"type": "operator", "id": "cj9sh51tl00003i6w0k7fnhhy"},
+      "target": {"type": "activity", "id": "cj9shdbzv00013i6w8tm8pysf"}
+    },
+    {
+      "_id": "cj9sjxis500073i6w182xom0x",
+      "source": {"type": "operator", "id": "cj9sjx81400063i6wr3fymdgj"},
+      "target": {"type": "activity", "id": "cj9sjvmh500033i6wbhd2mymv"}
+    },
+    {
+      "_id": "cj9ske0z100003i6wfobabfu7",
+      "source": {"type": "operator", "id": "cj9sjxmtk00083i6w2lbk1iys"},
+      "target": {"type": "activity", "id": "cj9sk3igu00003i6wph3o13am"}
+    },
+    {
+      "_id": "cj9ske2vd00013i6w03spz4zh",
+      "source": {"type": "operator", "id": "cj9sjxmtk00083i6w2lbk1iys"},
+      "target": {"type": "activity", "id": "cj9shd4a200003i6w85amr1nx"}
+    },
+    {
+      "_id": "cj9ske47q00023i6w3clm5duo",
+      "source": {"type": "operator", "id": "cj9sjxmtk00083i6w2lbk1iys"},
+      "target": {"type": "activity", "id": "cj9shdbzv00013i6w8tm8pysf"}
+    },
+    {
+      "_id": "cj9ske5e500033i6wzs49ax9e",
+      "source": {"type": "operator", "id": "cj9sjxmtk00083i6w2lbk1iys"},
+      "target": {"type": "activity", "id": "cj9sjuzrr00003i6wxsbbo9qv"}
+    },
+    {
+      "_id": "cj9smbaus00013i6wfplbfunt",
+      "source": {"type": "activity", "id": "cj9shd4a200003i6w85amr1nx"},
+      "target": {"type": "operator", "id": "cj9smb7yn00003i6wexrikkdw"}
+    },
+    {
+      "_id": "cj9smbcdo00023i6wwrjk1209",
+      "source": {"type": "operator", "id": "cj9smb7yn00003i6wexrikkdw"},
+      "target": {"type": "activity", "id": "cj9sjvmh500033i6wbhd2mymv"}
+    },
+    {
+      "_id": "cj9thrdy100043i6wis7jlkwp",
+      "source": {"type": "activity", "id": "cj9sjvmh500033i6wbhd2mymv"},
+      "target": {"type": "operator", "id": "cj9thqwrp00033i6wj9c940vv"}
+    },
+    {
+      "_id": "cj9thrfls00053i6wq7pbyza4",
+      "source": {"type": "operator", "id": "cj9thqwrp00033i6wj9c940vv"},
+      "target": {"type": "activity", "id": "cj9thqiac00023i6wngabtafb"}
+    }
+  ]
+}
