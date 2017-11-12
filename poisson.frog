@@ -1,14 +1,14 @@
 {
   "graph": {
-    "_id": "cj9sfplar00003i6wolrhvqut",
+    "_id": "cj9wlwven00003i6trwv3ijyj",
     "name": "Poisson",
-    "createdAt": "2017-11-09T12:13:20.022Z",
+    "createdAt": "2017-11-12T10:18:02.112Z",
     "duration": 35,
     "broken": false
   },
   "activities": [
     {
-      "_id": "cj9shd4a200003i6w85amr1nx",
+      "_id": "cj9wlwver00013i6tsr5cki3f",
       "title": "Solution proposée",
       "startTime": 0,
       "length": 5,
@@ -17,17 +17,23 @@
       "data": {"title": "Solution proposée", "placeholder": "Ecrivez ici"}
     },
     {
-      "_id": "cj9shdbzv00013i6w8tm8pysf",
+      "_id": "cj9wlwver00023i6tlaogfxo3",
       "title": "Solution proposée II",
       "startTime": 5,
       "length": 5,
       "plane": 1,
       "activityType": "ac-textarea",
       "createdAt": "2017-11-09T12:59:47.323Z",
-      "data": {"title": "Solution proposée", "placeholder": "Ecrivez ici"}
+      "data": {
+        "title": "Solution proposée",
+        "guidelines": "Voulez-vous prendre la(les) remarque(s) ci-dessous en considération et soumettre une nouvelle solution?",
+        "default": "Est-ce que votre solution considère correctement l'homogénéité des arrivées ?",
+        "placeholder": "Ecrivez ici",
+        "prompt": "Est-ce que votre solution considère correctement l'homogénéité des arrivées ?"
+      }
     },
     {
-      "_id": "cj9sjuzrr00003i6wxsbbo9qv",
+      "_id": "cj9wlwver00033i6tzob8plv2",
       "title": "Instructions",
       "startTime": 0,
       "length": 10,
@@ -35,11 +41,11 @@
       "activityType": "ac-text",
       "data": {
         "title": "Énoncé",
-        "text": "Un ami voudrait distribuer des flyers concernant une journée sportive à l’Université qui aura lieu dans quelques mois. Afin de mieux préparer sa distribution de flyers devant le Centre sportif, il vous demande d’estimer au mieux le nombre de personnes qui entrent dans le Centre Sportif le mardi entre 17h et 19h. Imaginez un scénario (en 100 mots maximum) qui per- mette d’estimer ce nombre. Votre scénario doit être simple et doit ignorer tous facteurs explicatifs externes tels que la météo, les cours et le nombre de cours donnés dans le Centre, la possibilité de se renseigner sur les activités du Centre, le nombre de voitures garées sur le parking devant le centre, etc. On exclue également la possibilité de contacter quiconque et d’utiliser un sup- port video tel que la caméra. Raisonnez simplement. La mise en pratique de votre scénario imaginé doit prendre environs 10 heures de temps."
+        "text": "Imaginez un scénario qui permette d'estimer au mieux le nombre de personnes qui entrent dans un Centre Sportif le mardi entre 17h et 19h"
       }
     },
     {
-      "_id": "cj9sjvmh500033i6wbhd2mymv",
+      "_id": "cj9wlwver00043i6trbc9nsju",
       "title": "Star text to debrief",
       "startTime": 5,
       "length": 8,
@@ -48,7 +54,7 @@
       "data": {"title": "Select text pieces for debriefing"}
     },
     {
-      "_id": "cj9sk0749000e3i6wzknx3dcb",
+      "_id": "cj9wlwver00053i6tn9xwgnxb",
       "title": "Post-test",
       "startTime": 18,
       "length": 4,
@@ -56,11 +62,29 @@
       "activityType": "ac-quiz",
       "data": {
         "title": "Quiz",
-        "questions": [{"question": "Question 1", "answers": ["a", "b"]}]
+        "guidelines": "On suppose que, le mardi entre 14h et 19h, le nombre moyen d'arrivées par heure dans le Centre Sportif est de 7 et on suppose également que les arrivées se produisent de manière homogène sur cette période.",
+        "questions": [
+          {
+            "question": "Quel est le nombre attendu d'arrivées entre 14h et 19h ?",
+            "answers": ["14", "21", "28", "35", "On ne peut pas savoir"]
+          },
+          {
+            "question": "Quel est le nombre attendu d'arrivées entre 14h et 16h ?",
+            "answers": ["14", "21", "28", "35", "On ne peut pas savoir"]
+          },
+          {
+            "question": "Si nous ne supposons pas l'homogénéité, quel est le nombre attendu d'arrivées entre 14h et 19h ?",
+            "answers": ["14", "21", "28", "35", "On ne peut pas savoir"]
+          },
+          {
+            "question": "Si nous ne supposons pas l'homogénéité, quel est le nombre attendu d'arrivées entre 14h et 16h ?",
+            "answers": ["14", "21", "28", "35", "On ne peut pas savoir"]
+          }
+        ]
       }
     },
     {
-      "_id": "cj9sk3igu00003i6wph3o13am",
+      "_id": "cj9wlwver00063i6tnzzwacm0",
       "title": "Coffee break",
       "startTime": 10,
       "length": 3,
@@ -69,7 +93,7 @@
       "data": {"title": "Coffee break "}
     },
     {
-      "_id": "cj9thqiac00023i6wngabtafb",
+      "_id": "cj9wlwves00073i6tvbrbykrw",
       "title": "Debrief",
       "startTime": 13,
       "length": 5,
@@ -80,26 +104,30 @@
   ],
   "operators": [
     {
-      "_id": "cj9sh51tl00003i6w0k7fnhhy",
-      "time": 4.54983922829582,
-      "y": 100,
+      "_id": "cj9wlwves00083i6tx5auuexk",
+      "time": 4.413784806527112,
+      "y": 182,
       "type": "product",
       "operatorType": "op-check-concepts",
       "data": {
         "concepts": [
           {
-            "keyword": "compte*, nombre, comptage*, dénombrage, nombre de personnes, nombre d’arrivées, nombre d’entrée",
-            "prompt": "Est-ce que vous avez pensé à compter?"
+            "keyword": "compte, nombre, comptage, dénombrage",
+            "prompt": "Est-ce que votre solution considère correctement le comptage des arrivées?"
           },
           {
-            "keyword": "estimation*, moyenne, médiane, prédiction*",
-            "prompt": "Est-ce que vous avez pensé à estimer?"
+            "keyword": "estimation, moyenne, médiane, prédiction",
+            "prompt": "Est-ce que votre solution considère correctement l'intensité des arrivées?"
+          },
+          {
+            "keyword": "plusieurs mardis, soirs, semaines, jours, heures, observations, régulièrement, entre 17h et 19h.",
+            "prompt": "Est-ce que votre solution considère correctement la représentativité des arrivées?"
           }
         ]
       }
     },
     {
-      "_id": "cj9sjx81400063i6wr3fymdgj",
+      "_id": "cj9wlwveu00093i6t2scm4k80",
       "time": 1.2298682284041,
       "y": 25,
       "type": "control",
@@ -107,30 +135,30 @@
       "data": {
         "applytoall": true,
         "includeexclude": "include",
-        "individuals": "kshitij,Kshitij Kshitij"
+        "individuals": "kshitij,Kshitij Kshitij,louis,stian"
       }
     },
     {
-      "_id": "cj9sjxmtk00083i6w2lbk1iys",
-      "time": 5.800595634233994,
-      "y": 499,
+      "_id": "cj9wlwvev000a3i6tj9qox9gi",
+      "time": 3.846905330326611,
+      "y": 488,
       "type": "control",
       "operatorType": "op-control-group",
       "data": {
         "applytoall": true,
         "includeexclude": "exclude",
-        "individuals": "kshitij,Kshitij Kshiitj"
+        "individuals": "kshitij,Kshitij Kshitij,louis,stian"
       }
     },
     {
-      "_id": "cj9smb7yn00003i6wexrikkdw",
-      "time": 1.3504823151125398,
-      "y": 127,
+      "_id": "cj9wlwvew000b3i6tr7delwbg",
+      "time": 1.2144278933438306,
+      "y": 84,
       "type": "product",
       "operatorType": "op-aggregate"
     },
     {
-      "_id": "cj9thqwrp00033i6wj9c940vv",
+      "_id": "cj9wlwvew000c3i6tehctm3eb",
       "time": 14.660804020100501,
       "y": 72,
       "type": "product",
@@ -140,59 +168,69 @@
   ],
   "connections": [
     {
-      "_id": "cj9shmvms00003i6wnpko6o8n",
-      "source": {"type": "activity", "id": "cj9shd4a200003i6w85amr1nx"},
-      "target": {"type": "operator", "id": "cj9sh51tl00003i6w0k7fnhhy"}
+      "_id": "cj9wlwvew000d3i6te1x4xvut",
+      "source": {"type": "activity", "id": "cj9wlwver00013i6tsr5cki3f"},
+      "target": {"type": "operator", "id": "cj9wlwves00083i6tx5auuexk"}
     },
     {
-      "_id": "cj9shmwar00013i6w9y1l22zp",
-      "source": {"type": "operator", "id": "cj9sh51tl00003i6w0k7fnhhy"},
-      "target": {"type": "activity", "id": "cj9shdbzv00013i6w8tm8pysf"}
+      "_id": "cj9wlwvew000e3i6t85c2r000",
+      "source": {"type": "operator", "id": "cj9wlwves00083i6tx5auuexk"},
+      "target": {"type": "activity", "id": "cj9wlwver00023i6tlaogfxo3"}
     },
     {
-      "_id": "cj9sjxis500073i6w182xom0x",
-      "source": {"type": "operator", "id": "cj9sjx81400063i6wr3fymdgj"},
-      "target": {"type": "activity", "id": "cj9sjvmh500033i6wbhd2mymv"}
+      "_id": "cj9wlwvew000f3i6trcc490hx",
+      "source": {"type": "operator", "id": "cj9wlwveu00093i6t2scm4k80"},
+      "target": {"type": "activity", "id": "cj9wlwver00043i6trbc9nsju"}
     },
     {
-      "_id": "cj9ske0z100003i6wfobabfu7",
-      "source": {"type": "operator", "id": "cj9sjxmtk00083i6w2lbk1iys"},
-      "target": {"type": "activity", "id": "cj9sk3igu00003i6wph3o13am"}
+      "_id": "cj9wlwvew000g3i6tpv5ay4lj",
+      "source": {"type": "operator", "id": "cj9wlwvev000a3i6tj9qox9gi"},
+      "target": {"type": "activity", "id": "cj9wlwver00063i6tnzzwacm0"}
     },
     {
-      "_id": "cj9ske2vd00013i6w03spz4zh",
-      "source": {"type": "operator", "id": "cj9sjxmtk00083i6w2lbk1iys"},
-      "target": {"type": "activity", "id": "cj9shd4a200003i6w85amr1nx"}
+      "_id": "cj9wlwvew000h3i6t7d6yf7n5",
+      "source": {"type": "operator", "id": "cj9wlwvev000a3i6tj9qox9gi"},
+      "target": {"type": "activity", "id": "cj9wlwver00013i6tsr5cki3f"}
     },
     {
-      "_id": "cj9ske47q00023i6w3clm5duo",
-      "source": {"type": "operator", "id": "cj9sjxmtk00083i6w2lbk1iys"},
-      "target": {"type": "activity", "id": "cj9shdbzv00013i6w8tm8pysf"}
+      "_id": "cj9wlwvew000j3i6t10dk4i38",
+      "source": {"type": "operator", "id": "cj9wlwvev000a3i6tj9qox9gi"},
+      "target": {"type": "activity", "id": "cj9wlwver00033i6tzob8plv2"}
     },
     {
-      "_id": "cj9ske5e500033i6wzs49ax9e",
-      "source": {"type": "operator", "id": "cj9sjxmtk00083i6w2lbk1iys"},
-      "target": {"type": "activity", "id": "cj9sjuzrr00003i6wxsbbo9qv"}
+      "_id": "cj9wlwvew000k3i6ttek02m6b",
+      "source": {"type": "activity", "id": "cj9wlwver00013i6tsr5cki3f"},
+      "target": {"type": "operator", "id": "cj9wlwvew000b3i6tr7delwbg"}
     },
     {
-      "_id": "cj9smbaus00013i6wfplbfunt",
-      "source": {"type": "activity", "id": "cj9shd4a200003i6w85amr1nx"},
-      "target": {"type": "operator", "id": "cj9smb7yn00003i6wexrikkdw"}
+      "_id": "cj9wlwvew000l3i6tsg8dilvb",
+      "source": {"type": "operator", "id": "cj9wlwvew000b3i6tr7delwbg"},
+      "target": {"type": "activity", "id": "cj9wlwver00043i6trbc9nsju"}
     },
     {
-      "_id": "cj9smbcdo00023i6wwrjk1209",
-      "source": {"type": "operator", "id": "cj9smb7yn00003i6wexrikkdw"},
-      "target": {"type": "activity", "id": "cj9sjvmh500033i6wbhd2mymv"}
+      "_id": "cj9wlwvew000m3i6tk024d1ep",
+      "source": {"type": "activity", "id": "cj9wlwver00043i6trbc9nsju"},
+      "target": {"type": "operator", "id": "cj9wlwvew000c3i6tehctm3eb"}
     },
     {
-      "_id": "cj9thrdy100043i6wis7jlkwp",
-      "source": {"type": "activity", "id": "cj9sjvmh500033i6wbhd2mymv"},
-      "target": {"type": "operator", "id": "cj9thqwrp00033i6wj9c940vv"}
+      "_id": "cj9wlwvew000n3i6twnbqftsq",
+      "source": {"type": "operator", "id": "cj9wlwvew000c3i6tehctm3eb"},
+      "target": {"type": "activity", "id": "cj9wlwves00073i6tvbrbykrw"}
     },
     {
-      "_id": "cj9thrfls00053i6wq7pbyza4",
-      "source": {"type": "operator", "id": "cj9thqwrp00033i6wj9c940vv"},
-      "target": {"type": "activity", "id": "cj9thqiac00023i6wngabtafb"}
+      "_id": "cj9wmejrc00003i6trzxjx1g1",
+      "source": {"type": "operator", "id": "cj9wlwveu00093i6t2scm4k80"},
+      "target": {"type": "activity", "id": "cj9wlwves00073i6tvbrbykrw"}
+    },
+    {
+      "_id": "cj9wtzpjb00013i6tpdjm1li4",
+      "source": {"type": "operator", "id": "cj9wlwvev000a3i6tj9qox9gi"},
+      "target": {"type": "activity", "id": "cj9wlwver00053i6tn9xwgnxb"}
+    },
+    {
+      "_id": "cj9wugsgy00033i6t1246exnq",
+      "source": {"type": "operator", "id": "cj9wlwvev000a3i6tj9qox9gi"},
+      "target": {"type": "activity", "id": "cj9wlwver00023i6tlaogfxo3"}
     }
   ]
 }
