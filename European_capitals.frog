@@ -1,0 +1,102 @@
+{
+  "graph": {
+    "_id": "cjackogy400003h6xqcuzwi8j",
+    "name": "European capitals",
+    "createdAt": "2017-11-23T14:27:49.324Z",
+    "duration": 50,
+    "broken": false
+  },
+  "activities": [
+    {
+      "_id": "cjackoick00013h6xm64iaop2",
+      "title": "City quiz",
+      "startTime": 1,
+      "length": 16,
+      "plane": 1,
+      "activityType": "ac-quiz",
+      "data": {
+        "title": "Capitals",
+        "shuffle": "none",
+        "hasAnswers": true,
+        "questions": [
+          {
+            "question": "Where is Oslo?",
+            "answers": [
+              {"choice": "Norway", "isCorrect": true},
+              {"choice": "Sweden"},
+              {"choice": "Denmark"}
+            ]
+          },
+          {
+            "question": "What is the capital of Lativa?",
+            "answers": [
+              {"choice": "Bratislava"},
+              {"choice": "Vilnius", "isCorrect": true},
+              {"choice": "Zagreb"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "_id": "cjackq9fh00053h6x4or2yjmd",
+      "title": "Video",
+      "startTime": 17,
+      "length": 15,
+      "plane": 1,
+      "activityType": "ac-video",
+      "data": {
+        "url": "https://www.youtube.com/watch?v=Dj9jkP3nWE0",
+        "playing": true
+      }
+    },
+    {
+      "_id": "cjackqx3n00073h6x8ajin2sw",
+      "title": "Wikipedia capitals",
+      "startTime": 17,
+      "length": 15,
+      "plane": 1,
+      "activityType": "ac-iframe",
+      "data": {
+        "url": "https://www.wikipedia.org/wiki/List_of_national_capitals_in_alphabetical_order"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "_id": "cjackpwji00023h6x9quuvcm9",
+      "time": 19.59731543624161,
+      "y": 229,
+      "type": "control",
+      "operatorType": "op-performance-select",
+      "data": {
+        "use_percentage": true,
+        "min_percentage": 50,
+        "activity_low": "cjackq9fh00053h6x4or2yjmd",
+        "activity_high": "cjackqx3n00073h6x8ajin2sw"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "cjackpxxf00033h6x8l9ilsqe",
+      "source": {"type": "activity", "id": "cjackoick00013h6xm64iaop2"},
+      "target": {"type": "operator", "id": "cjackpwji00023h6x9quuvcm9"}
+    },
+    {
+      "_id": "cjackqwdo00063h6xly8t3dvw",
+      "source": {"type": "operator", "id": "cjackpwji00023h6x9quuvcm9"},
+      "target": {"type": "activity", "id": "cjackq9fh00053h6x4or2yjmd"}
+    },
+    {
+      "_id": "cjackscrr00083h6xwnggoy3c",
+      "source": {"type": "operator", "id": "cjackpwji00023h6x9quuvcm9"},
+      "target": {"type": "activity", "id": "cjackq9fh00053h6x4or2yjmd"}
+    },
+    {
+      "_id": "cjacksfvi00093h6xq899uvv5",
+      "source": {"type": "operator", "id": "cjackpwji00023h6x9quuvcm9"},
+      "target": {"type": "activity", "id": "cjackqx3n00073h6x8ajin2sw"}
+    }
+  ]
+}
