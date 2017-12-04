@@ -1,0 +1,172 @@
+{
+  "graph": {
+    "_id": "cjahz28ij00003h6thuar7rf3",
+    "name": "inducPoly",
+    "createdAt": "2017-11-27T09:09:17.084Z",
+    "duration": 120,
+    "broken": false
+  },
+  "activities": [
+    {
+      "_id": "cjakxfs7q00003h6u806t68n0",
+      "title": "Unnamed",
+      "startTime": 0,
+      "length": 12,
+      "plane": 1,
+      "activityType": "ac-induction",
+      "data": {
+        "title": "platonic solid",
+        "hasExamples": true,
+        "nbExamples": 4,
+        "hasTestWithFeedback": true,
+        "nbTestFeedback": 5,
+        "hasDefinition": true,
+        "definition": "The Platonic solids are convex polyhedra with equivalent faces composed of congruent convex regular polygons.",
+        "hasTest": true,
+        "nbTest": 8,
+        "properties": [
+          "it's a polyhedron",
+          "it's convex",
+          "all vertices lie on a sphere",
+          "all edges have the equal length",
+          "it has less than 10 faces",
+          "all faces are triangles",
+          "the number of edges is a multiple of 6",
+          "it's concave",
+          "at least one of the faces is a circle",
+          "has an odd number of faces",
+          "some edges aren't on a plane of symmetry",
+          "each vertex as an equal number of adjacent faces",
+          "colored"
+        ],
+        "suffisantSets": "{0,1,11,3,13},{0,3,2,13}",
+        "contradictoryProperties": "7,8,9,10",
+        "unnecessaryProperties": "4,5,12",
+        "examples": [
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT0.png",
+            "respectedProperties": "0,1,2,3,4,5,6,11,12,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT1.png",
+            "respectedProperties": "0,1,2,3,4,5,6,11,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT2.png",
+            "respectedProperties": "0,1,2,3,11,12,4,6,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT3.png",
+            "respectedProperties": "0,1,2,3,11,4,6,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT4.png",
+            "respectedProperties": "0,1,2,3,11,4,5,6,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT5.png",
+            "respectedProperties": "0,1,2,3,11,4,5,6,12,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT6.png",
+            "respectedProperties": "0,1,2,3,11,12,6,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT7.png",
+            "respectedProperties": "0,1,2,3,11,6,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT8.png",
+            "respectedProperties": "0,1,2,3,11,12,5,6,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidT9.png",
+            "respectedProperties": "0,1,2,3,11,5,6,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF0.png",
+            "isIncorrect": true,
+            "respectedProperties": "1,2,4,8"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF1.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,3,5,6,7,12,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF2.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,2,6,12,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF3.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,3,5,6,7,11,12,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF4.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,2,4,5,6,10,11,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF5.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,2,3,4"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF6.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,2,3,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF7.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,5,6,12,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF8.png",
+            "isIncorrect": true,
+            "respectedProperties": "1,2,4,9,11,12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF9.png",
+            "isIncorrect": true,
+            "respectedProperties": "1,2,3,4,8,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF10.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,2,4,9,11,12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF11.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,4,9,12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF12.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,2,3,5,10,12,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF13.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,2,3,5,10,12,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF14.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,2,4,6,10,11,13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Platon/solidF15.png",
+            "isIncorrect": true,
+            "respectedProperties": "0,1,2,4,6,12,13"
+          }
+        ]
+      }
+    }
+  ],
+  "operators": [],
+  "connections": []
+}

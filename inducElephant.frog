@@ -1,0 +1,125 @@
+{
+  "graph": {
+    "_id": "cjahz4pfx00023h6t9j3btids",
+    "name": "inducElephant",
+    "createdAt": "2017-11-27T09:11:12.333Z",
+    "duration": 120,
+    "broken": false
+  },
+  "activities": [
+    {
+      "_id": "cjahz4pfy00033h6tpmdfk8yn",
+      "title": "Unnamed",
+      "startTime": 0,
+      "length": 13,
+      "plane": 1,
+      "activityType": "ac-induction",
+      "data": {
+        "title": "Asian elephant",
+        "hasExamples": true,
+        "nbExamples": 4,
+        "hasTestWithFeedback": true,
+        "nbTestFeedback": 5,
+        "hasDefinition": true,
+        "definition": "The asian elephant has as physical differences to the african one, 2 humps on the forehead, smaller ears, an arched back, smaller tusks. Also they have five toes on the front paws and four on the back paws whereas the african elephant can have 4 or 5 on the front paws and only 3 on the back ones.",
+        "hasTest": true,
+        "nbTest": 5,
+        "properties": [
+          "2 humps on the forehead",
+          "a curve forehead",
+          "ears that don't cover his shoulders",
+          "an arched back",
+          "3 toes on the back paws",
+          "5 toes on the front paws",
+          "4 toes on the front paws",
+          "a queue",
+          "2 lobes of flesh on the tip of the trunk",
+          "double pigmentation",
+          "ears that cover his shoulders",
+          "2 tusks when adult"
+        ],
+        "suffisantSets": "{0},{0,5},{0,7},{0,5,7},{2},{2,5},{2,7},{2,5,7},{3},{3,5},{3,7},{3,5,7},{0,2},{0,2,5},{0,2,7},{0,2,5,7},{0,3},{0,3,5},{0,3,7},{0,3,5,7},{0,2,3},{0,2,3,5},{0,2,3,7},{0,2,3,5,7},",
+        "contradictoryProperties": "1,4,6,8,10",
+        "unnecessaryProperties": "9,11",
+        "examples": [
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF0.jpg",
+            "isIncorrect": true,
+            "respectedProperties": "1,8,10,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF1.jpg",
+            "isIncorrect": true,
+            "respectedProperties": "1,10,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF2.jpg",
+            "isIncorrect": true,
+            "respectedProperties": "1,8,10,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF3.jpg",
+            "isIncorrect": true,
+            "respectedProperties": "8,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF4.jpeg",
+            "isIncorrect": true,
+            "respectedProperties": "1,10,11,7"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF5.jpg",
+            "isIncorrect": true,
+            "respectedProperties": "1,11,10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF6.jpg",
+            "isIncorrect": true,
+            "respectedProperties": "7,10,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF7.jpg",
+            "isIncorrect": true,
+            "respectedProperties": "1,7,8,10,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF8.jpg",
+            "isIncorrect": true,
+            "respectedProperties": "1,8,10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantF9.jpg",
+            "isIncorrect": true,
+            "respectedProperties": "1,8,9,10,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantT0.jpg",
+            "respectedProperties": "0,2,3,7,11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantT1.jpg",
+            "respectedProperties": "0,2,3"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantT2.jpg",
+            "respectedProperties": "2,9"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantT3.jpg",
+            "respectedProperties": "2,3"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantT4.jpg",
+            "respectedProperties": "2,3,7"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/romainAA/imagesSetSP/master/Elephants/elephantT5.jpg",
+            "respectedProperties": "0,2,11"
+          }
+        ]
+      }
+    }
+  ],
+  "operators": [],
+  "connections": []
+}
